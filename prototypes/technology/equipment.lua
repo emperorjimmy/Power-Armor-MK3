@@ -175,7 +175,7 @@ data:extend(
     prerequisites = {"personal-defense-damage-2"},
     unit =
     {
-      count = 300,
+      count = 250,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -205,13 +205,14 @@ data:extend(
     prerequisites = {"personal-defense-damage-3"},
     unit =
     {
-      count = 200,
+      count = 300,
       ingredients =
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
-        {"military-science-pack", 1}
+        {"military-science-pack", 1},
+        {"high-tech-science-pack", 1}
       },
       time = 60
     },
@@ -234,7 +235,7 @@ data:extend(
     prerequisites = {"personal-defense-damage-4"},
     unit =
     {
-      count = 200,
+      count = 400,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -264,7 +265,7 @@ data:extend(
     prerequisites = {"personal-defense-damage-5"},
     unit =
     {
-      count = 400,
+      count = 500,
       ingredients =
       {
         {"science-pack-1", 1},
