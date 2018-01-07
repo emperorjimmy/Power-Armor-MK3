@@ -84,5 +84,42 @@ data:extend{
     equipment_grid = "largest-equipment-grid",
     inventory_size_bonus = 60
 	
+  },
+  {
+    type = "armor",
+    name = "power-armor-mkX",
+    icon = "__Power Armor MK3__/graphics/icons/power-armor-mkX.png",
+    icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    resistances =
+    {
+      {
+        type = "physical",
+        decrease = 30,
+        percent = 60
+      },
+      {
+        type = "acid",
+        decrease = 30,
+        percent = 60
+      },
+      {
+        type = "explosion",
+        decrease = 40,
+        percent = 60
+      },
+      {
+        type = "fire",
+        decrease = 0,
+        percent = 100
+      }
+    },
+    durability = 100000,
+    subgroup = "armor",
+    order = "h[power-armor-mkX]",
+    stack_size = 1,
+    equipment_grid = "largest-equipment-grid",
+    inventory_size_bonus = 70
+	
   }
 }  

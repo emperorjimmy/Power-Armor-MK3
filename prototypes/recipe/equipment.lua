@@ -21,7 +21,7 @@ data:extend(
     ingredients =
     {
       {"energy-shield-mk2-equipment", 10},
-	  {"advanced-circuit", 40},
+	    {"advanced-circuit", 40},
       {"processing-unit", 20}
     },
     result = "energy-shield-mk3-equipment"
@@ -33,7 +33,7 @@ data:extend(
     energy_required = 10,
     ingredients =
     {
-	  {"steel-plate", 30},
+	    {"steel-plate", 30},
       {"advanced-circuit", 40},
       {"processing-unit", 30}
     },
@@ -44,11 +44,11 @@ data:extend(
     name = "belt-immunity-equipment",
     enabled = false,
     energy_required = 10,
-	ingredients = 
-	{
+    ingredients = 
+    {
       {"iron-plate", 20},
-	  {"iron-gear-wheel", 10},
-	  {"steel-plate", 10},
+      {"iron-gear-wheel", 10},
+      {"steel-plate", 10},
       {"electronic-circuit", 5}
     },
     result = "belt-immunity-equipment"

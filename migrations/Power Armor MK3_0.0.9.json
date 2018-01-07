@@ -2,6 +2,7 @@
   "technology":
   [
     ["power-armor-3", "power-armor-mk3"],
-	  ["power-armor-4", "power-armor-mk4"]
+    ["power-armor-4", "power-armor-mk4"],
+    ["power-armor-X", "power-armor-mkX"]
   ]
 }

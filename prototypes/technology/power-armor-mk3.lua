@@ -50,10 +50,36 @@ data:extend{
         {"science-pack-3", 1},
         {"military-science-pack", 2},
         {"high-tech-science-pack", 3},
-		{"space-science-pack", 5}
+		    {"space-science-pack", 5}
       },
       time = 120
     },
     order = "g-c-d"
-  }
+  },
+  {
+    type = "technology",
+    name = "power-armor-mkX",
+    icon = "__Power Armor MK3__/graphics/technology/power-armor-mkX.png",
+	icon_size = 128,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "power-armor-mkX"
+      }
+    },
+    prerequisites = {"power-armor-2"},
+    unit =
+    {
+      count = 200,
+      ingredients =
+      {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1},
+        {"science-pack-3", 1}
+      },
+      time = 60
+    },
+    order = "g-c-c"
+  },
 }  

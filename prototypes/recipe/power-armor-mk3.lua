@@ -28,5 +28,18 @@ data:extend{
 	},
     result = "power-armor-mk4",
     requester_paste_multiplier = 1
+  },
+  {
+    type = "recipe",
+    name = "power-armor-mkX",
+    enabled = false,
+    energy_required = 120,
+    ingredients = {
+	  {"electronic-circuit", 100},
+	  {"advanced-circuit", 100},
+	  {"processing-unit", 100}
+	},
+    result = "power-armor-mkX",
+    requester_paste_multiplier = 1
   }
 }  
