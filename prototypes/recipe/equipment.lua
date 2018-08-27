@@ -35,7 +35,8 @@ data:extend(
     {
 	  {"steel-plate", 30},
       {"advanced-circuit", 40},
-      {"processing-unit", 30}
+      {"processing-unit", 30},
+	  {"effectivity-module-3", 2}
     },
     result = "battery-mk3-equipment"
   },

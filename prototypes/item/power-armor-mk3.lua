@@ -14,8 +14,8 @@ data:extend{
   {
     type = "armor",
     name = "power-armor-mk3",
-    icon = "__Power Armor MK3__/graphics/icons/power-armor-mk3.png",
-    icon_size = 32,
+    icon = "__Power Armor MK3__/graphics/icons/power-armor-mk3.png",	
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     resistances =
     {
@@ -51,8 +51,8 @@ data:extend{
   {
     type = "armor",
     name = "power-armor-mk4",
-    icon = "__Power Armor MK3__/graphics/icons/power-armor-mk3.png",
-    icon_size = 32,
+    icon = "__Power Armor MK3__/graphics/icons/power-armor-mk4.png",	
+	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     resistances =
     {

@@ -3,8 +3,8 @@ data:extend{
   {
     type = "item",
     name = "night-vision-mk2-equipment",
-    icon = "__base__/graphics/icons/night-vision-equipment.png",
-    icon_size = 32,
+    icon = "__base__/graphics/icons/night-vision-equipment.png",	
+	icon_size = 32,
     placed_as_equipment_result = "night-vision-mk2-equipment",
     flags = {"goes-to-main-inventory"},
     subgroup = "equipment",
@@ -15,8 +15,8 @@ data:extend{
   {
     type = "item",
     name = "energy-shield-mk3-equipment",
-    icon = "__Power Armor MK3__/graphics/icons/energy-shield-mk3-equipment.png",
-    icon_size = 32,
+    icon = "__Power Armor MK3__/graphics/icons/energy-shield-mk3-equipment.png",	
+	icon_size = 32,
     placed_as_equipment_result = "energy-shield-mk3-equipment",
     flags = {"goes-to-main-inventory"},
     subgroup = "equipment",
@@ -27,8 +27,8 @@ data:extend{
   {
     type = "item",
     name = "battery-mk3-equipment",
-    icon_size = 32,
-    icon = "__Power Armor MK3__/graphics/icons/battery-mk3-equipment.png",
+    icon = "__Power Armor MK3__/graphics/icons/battery-mk3-equipment.png",	
+	icon_size = 32,
     placed_as_equipment_result = "battery-mk3-equipment",
     flags = {"goes-to-main-inventory"},
     subgroup = "equipment",
