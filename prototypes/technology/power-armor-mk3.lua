@@ -30,7 +30,7 @@ data:extend{
   {
     type = "technology",
     name = "power-armor-mk4",
-    icon = "__Power Armor MK3__/graphics/technology/power-armor-mk3.png",
+    icon = "__Power Armor MK3__/graphics/technology/power-armor-mk4.png",
 	icon_size = 128,
     effects =
     {

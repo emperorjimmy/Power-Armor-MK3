@@ -24,22 +24,23 @@ data:extend(
       usage_priority = "primary-input"
     },
     energy_input = "20kW",
-    tint = {r = 0, g = 0, b = 0, a = 0.6},
+    tint = {r = 0, g = 0, b = 0, a = 0},
     desaturation_params = 
     { 
-      smoothstep_min = 0.1,
-      smoothstep_max = 0.7,
-      minimum = 0.5,
-      maximum = 1.0
+      smoothstep_min = 1,
+      smoothstep_max = 1,
+      minimum = 1,
+      maximum = 1
     },
     light_params = 
     { 
-      smoothstep_min = 0.1,
-      smoothstep_max = 0.7,
-      minimum = 0.666,
-      maximum = 1.0,
+      smoothstep_min = 0.8,
+      smoothstep_max = 1,
+      minimum = 0.8,
+      maximum = 1,
     },
-    categories = {"armor"}
+    categories = {"armor"},
+	darkness_to_turn_on = 0.3
   },
   {
     type = "energy-shield-equipment",
