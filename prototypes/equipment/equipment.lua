@@ -94,6 +94,30 @@ data:extend(
       usage_priority = "terciary"
     },
     categories = {"armor"}
+  },
+  {
+    type = "generator-equipment",
+    name = "nuclear-reactor-equipment",
+    sprite =
+    {
+      filename = "__Power Armor MK3__/graphics/equipment/nuclear-reactor-equipment.png",
+      width = 96,
+      height = 96,
+      priority = "medium"
+    },
+    shape =
+    {
+      width = 3,
+      height = 3,
+      type = "full"
+    },
+    energy_source =
+    {
+      type = "electric",
+      usage_priority = "primary-output"
+    },
+    power = "200kW",
+    categories = {"armor"}
   }
 }
 )
