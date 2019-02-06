@@ -1,0 +1,8 @@
+require("prototypes.item.power-armor-mk3")
+require("prototypes.equipment.equipment-grid2")
+require("prototypes.recipe.power-armor-mk3")
+require("prototypes.technology.power-armor-mk3")
+require("prototypes.item.equipment")
+require("prototypes.equipment.equipment")
+require("prototypes.recipe.equipment")
+require("prototypes.technology.equipment")
