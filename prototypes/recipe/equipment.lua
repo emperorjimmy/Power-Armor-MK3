@@ -53,6 +53,20 @@ data:extend(
       {"electronic-circuit", 5}
     },
     result = "belt-immunity-equipment"
+  },
+  {
+    type = "recipe",
+    name = "nuclear-reactor-equipment",
+    enabled = false,
+    energy_required = 10,
+	ingredients = 
+	{
+	  {"copper-cable", 30},
+	  {"steel-plate", 20},
+      {"advanced-circuit", 10},
+      {"uranium-fuel-cell", 5}
+    },
+    result = "nuclear-reactor-equipment"
   }
 }
 )

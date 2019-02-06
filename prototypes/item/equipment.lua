@@ -35,5 +35,16 @@ data:extend{
     order = "c[battery]-c[battery-equipment-mk3]",
     stack_size = 50,
     default_request_amount = 10
+  },
+  {
+    type = "item",
+    name = "nuclear-reactor-equipment",
+    icon = "__base__/graphics/icons/nuclear-reactor.png",	
+	icon_size = 32,
+    placed_as_equipment_result = "nuclear-reactor-equipment",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "equipment",
+    order = "a[energy-source]-c[nuclear-reactor]",
+    stack_size = 20
   }
 }  

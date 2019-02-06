@@ -102,6 +102,32 @@ data:extend(
     },
     order = "g-l"
   },
+    {
+    type = "technology",
+    name = "nuclear-reactor-equipment",
+    icon = "__Power Armor MK3__/graphics/technology/nuclear-reactor-equipment.png",
+	icon_size = 128,
+	prerequisites = {"power-armor", "nuclear-power"},
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "nuclear-reactor-equipment"
+      }
+    },
+    unit =
+    {
+      count = 200,
+      ingredients = {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1},
+        {"science-pack-3", 1},
+        {"military-science-pack", 1}
+      },
+      time = 30
+    },
+    order = "g-l"
+  },
 	{
     type = "technology",
     name = "personal-defense-damage-1",
