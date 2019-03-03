@@ -130,21 +130,59 @@ data:extend(
   },
 	{
     type = "technology",
-    name = "personal-defense-damage-1",
-    icon = "__Power Armor MK3__/graphics/technology/personal-defense-damage.png",
-	icon_size = 128,
+    name = "energy-weapons-damage-1",
+    icon_size = 128,
+    icon = "__base__/graphics/technology/energy-weapons-damage-1.png",
     effects =
     {
       {
+        type = "ammo-damage",
+        ammo_category = "laser-turret",
+        modifier = 0.2
+      },
+	  {
         type = "ammo-damage",
         ammo_category = "electric",
         modifier = 0.1
       }
     },
-    prerequisites = {"personal-laser-defense-equipment", "discharge-defense-equipment", "military-4"},
+    prerequisites = {"laser", "military-science-pack"},
     unit =
     {
-      count = 150,
+      count = 100*1,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"military-science-pack", 1},
+      },
+      time = 30
+    },
+    upgrade = true,
+    order = "e-j-a"
+  },
+  {
+    type = "technology",
+    name = "energy-weapons-damage-2",
+    icon_size = 128,
+    icon = "__base__/graphics/technology/energy-weapons-damage-1.png",
+    effects =
+    {
+      {
+        type = "ammo-damage",
+        ammo_category = "laser-turret",
+        modifier = 0.2
+      },
+	  {
+        type = "ammo-damage",
+        ammo_category = "electric",
+        modifier = 0.1
+      }
+    },
+    prerequisites = {"energy-weapons-damage-1"},
+    unit =
+    {
+      count = 100*2,
       ingredients =
       {
         {"automation-science-pack", 1},
@@ -154,84 +192,112 @@ data:extend(
       time = 30
     },
     upgrade = true,
-    order = "e-n-a"
+    order = "e-l-b"
   },
   {
     type = "technology",
-    name = "personal-defense-damage-2",
-    icon = "__Power Armor MK3__/graphics/technology/personal-defense-damage.png",
-	icon_size = 128,
+    name = "energy-weapons-damage-3",
+    icon_size = 128,
+    icon = "__base__/graphics/technology/energy-weapons-damage-1.png",
     effects =
     {
       {
         type = "ammo-damage",
+        ammo_category = "laser-turret",
+        modifier = 0.3
+      },
+	  {
+        type = "ammo-damage",
         ammo_category = "electric",
-        modifier = 0.1
+        modifier = 0.2
       }
     },
-    prerequisites = {"personal-defense-damage-1"},
+    prerequisites = {"energy-weapons-damage-2"},
     unit =
     {
-      count = 200,
+      count = 100*3,
       ingredients =
       {
         {"automation-science-pack", 1},
         {"logistic-science-pack", 1},
-        {"chemical-science-pack", 1},
-        {"military-science-pack", 1},
+        {"military-science-pack", 1}
       },
-      time = 30
+      time = 60
     },
     upgrade = true,
-    order = "e-n-b"
+    order = "e-l-c"
   },
   {
     type = "technology",
-    name = "personal-defense-damage-3",
-    icon = "__Power Armor MK3__/graphics/technology/personal-defense-damage.png",
-	icon_size = 128,
+    name = "energy-weapons-damage-4",
+    icon_size = 128,
+    icon = "__base__/graphics/technology/energy-weapons-damage-2.png",
     effects =
     {
       {
         type = "ammo-damage",
+        ammo_category = "laser-turret",
+        modifier = 0.4
+      },
+      {
+        type = "ammo-damage",
+        ammo_category = "combat-robot-laser",
+        modifier = 0.2
+      },
+	  {
+        type = "ammo-damage",
         ammo_category = "electric",
-        modifier = 0.1
+        modifier = 0.2
       }
     },
-    prerequisites = {"personal-defense-damage-2"},
+    prerequisites = {"energy-weapons-damage-3"},
     unit =
     {
-      count = 250,
+      count = 100*4,
       ingredients =
       {
         {"automation-science-pack", 1},
         {"logistic-science-pack", 1},
-        {"chemical-science-pack", 1},
         {"military-science-pack", 1},
-        {"utility-science-pack", 1}
+        {"chemical-science-pack", 1}
       },
-      time = 30
+      time = 60
     },
     upgrade = true,
-    order = "e-n-c"
+    order = "e-l-d"
   },
   {
     type = "technology",
-    name = "personal-defense-damage-4",
-    icon = "__Power Armor MK3__/graphics/technology/personal-defense-damage.png",
-	icon_size = 128,
+    name = "energy-weapons-damage-5",
+    icon_size = 128,
+    icon = "__base__/graphics/technology/energy-weapons-damage-3.png",
     effects =
     {
       {
         type = "ammo-damage",
+        ammo_category = "laser-turret",
+        modifier = 0.5
+      },
+      {
+        type = "ammo-damage",
+        ammo_category = "combat-robot-laser",
+        modifier = 0.4
+      },
+      {
+        type = "ammo-damage",
+        ammo_category = "combat-robot-beam",
+        modifier = 0.4
+      },
+	  {
+        type = "ammo-damage",
         ammo_category = "electric",
-        modifier = 0.1
+        modifier = 0.3
       }
     },
-    prerequisites = {"personal-defense-damage-3"},
+    prerequisites = {"energy-weapons-damage-4"},
     unit =
     {
-      count = 300,
+      count = 100*5,
       ingredients =
       {
         {"automation-science-pack", 1},
@@ -243,25 +309,40 @@ data:extend(
       time = 60
     },
     upgrade = true,
-    order = "e-n-d"
+    order = "e-l-e"
   },
   {
     type = "technology",
-    name = "personal-defense-damage-5",
-    icon = "__Power Armor MK3__/graphics/technology/personal-defense-damage.png",
-	icon_size = 128,
+    name = "energy-weapons-damage-6",
+    icon_size = 128,
+    icon = "__base__/graphics/technology/energy-weapons-damage-3.png",
     effects =
     {
       {
         type = "ammo-damage",
+        ammo_category = "laser-turret",
+        modifier = 0.7
+      },
+      {
+        type = "ammo-damage",
+        ammo_category = "combat-robot-laser",
+        modifier = 0.4
+      },
+      {
+        type = "ammo-damage",
+        ammo_category = "combat-robot-beam",
+        modifier = 0.6
+      },
+	  {
+        type = "ammo-damage",
         ammo_category = "electric",
-        modifier = 0.1
+        modifier = 0.5
       }
     },
-    prerequisites = {"personal-defense-damage-4"},
+    prerequisites = {"energy-weapons-damage-5"},
     unit =
     {
-      count = 400,
+      count = 100*6,
       ingredients =
       {
         {"automation-science-pack", 1},
@@ -273,52 +354,37 @@ data:extend(
       time = 60
     },
     upgrade = true,
-    order = "e-n-e"
+    order = "e-l-f"
   },
   {
     type = "technology",
-    name = "personal-defense-damage-6",
-    icon = "__Power Armor MK3__/graphics/technology/personal-defense-damage.png",
-	icon_size = 128,
+    name = "energy-weapons-damage-7",
+    icon_size = 128,
+    icon = "__base__/graphics/technology/energy-weapons-damage-3.png",
     effects =
     {
       {
         type = "ammo-damage",
-        ammo_category = "electric",
-        modifier = 0.1
-      }
-    },
-    prerequisites = {"personal-defense-damage-5"},
-    unit =
-    {
-      count = 500,
-      ingredients =
-      {
-        {"automation-science-pack", 1},
-        {"logistic-science-pack", 1},
-        {"chemical-science-pack", 1},
-        {"military-science-pack", 1},
-        {"utility-science-pack", 1}
+        ammo_category = "laser-turret",
+        modifier = 0.7
       },
-      time = 60
-    },
-    upgrade = true,
-    order = "e-n-f"
-  },
-  {
-    type = "technology",
-    name = "personal-defense-damage-6",
-    icon = "__Power Armor MK3__/graphics/technology/personal-defense-damage.png",
-	icon_size = 128,
-    effects =
-    {
       {
         type = "ammo-damage",
+        ammo_category = "combat-robot-laser",
+        modifier = 0.3
+      },
+      {
+        type = "ammo-damage",
+        ammo_category = "combat-robot-beam",
+        modifier = 0.3
+      },
+	  {
+        type = "ammo-damage",
         ammo_category = "electric",
-        modifier = 0.1
+        modifier = 0.5
       }
     },
-    prerequisites = {"personal-defense-damage-5"},
+    prerequisites = {"energy-weapons-damage-6", "space-science-pack"},
     unit =
     {
       count_formula = "2^(L-7)*1000",
@@ -335,7 +401,7 @@ data:extend(
     },
     max_level = "infinite",
     upgrade = true,
-    order = "e-n-g"
+    order = "e-l-f"
   }
   }
 )
