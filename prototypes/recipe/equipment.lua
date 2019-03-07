@@ -8,7 +8,7 @@ data:extend(
     ingredients =
     {
       {"advanced-circuit", 20},
-      {"steel-plate", 10},
+      {"low-density-structure", 10},
       {"processing-unit", 5}
     },
     result = "night-vision-mk2-equipment"
@@ -21,8 +21,8 @@ data:extend(
     ingredients =
     {
       {"energy-shield-mk2-equipment", 10},
-	  {"advanced-circuit", 40},
-      {"processing-unit", 20}
+	  {"low-density-structure", 30},
+      {"rocket-control-unit", 10}
     },
     result = "energy-shield-mk3-equipment"
   },
@@ -33,9 +33,9 @@ data:extend(
     energy_required = 10,
     ingredients =
     {
-	  {"steel-plate", 30},
-      {"advanced-circuit", 40},
-      {"processing-unit", 30},
+	  {"low-density-structure", 30},
+      {"battery-mk2-equipment", 10},
+      {"rocket-control-unit", 5},
 	  {"effectivity-module-3", 2}
     },
     result = "battery-mk3-equipment"
