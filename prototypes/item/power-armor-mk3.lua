@@ -39,7 +39,6 @@ data:extend{
         percent = 100
       }
     },
-    durability = 30000,
     subgroup = "armor",
     order = "f[power-armor-mk3]",
     stack_size = 1,
@@ -75,7 +74,6 @@ data:extend{
         percent = 100
       }
     },
-    durability = 40000,
     subgroup = "armor",
     order = "g[power-armor-mk4]",
     stack_size = 1,
