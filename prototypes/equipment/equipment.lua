@@ -118,6 +118,30 @@ data:extend(
     },
     power = "200kW",
     categories = {"armor"}
+  },
+  {
+    type = "generator-equipment",
+    name = "singularity-equipment",
+    sprite =
+    {
+      filename = "__Power Armor MK3__/graphics/equipment/singularity-equipment.png",
+      width = 128,
+      height = 128,
+      priority = "medium"
+    },
+    shape =
+    {
+      width = 4,
+      height = 4,
+      type = "full"
+    },
+    energy_source =
+    {
+      type = "electric",
+      usage_priority = "primary-output"
+    },
+    power = "3000kW",
+    categories = {"armor"}
   }
 }
 )

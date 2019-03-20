@@ -20,7 +20,7 @@ data:extend{
     subgroup = "equipment",
     order = "b[shield]-c[energy-shield-equipment-mk3]",
     stack_size = 50,
-    default_request_amount = 10
+    default_request_amount = 5
   },
   {
     type = "item",
@@ -31,7 +31,7 @@ data:extend{
     subgroup = "equipment",
     order = "c[battery]-c[battery-equipment-mk3]",
     stack_size = 50,
-    default_request_amount = 10
+    default_request_amount = 5
   },
   {
     type = "item",
@@ -41,6 +41,18 @@ data:extend{
     placed_as_equipment_result = "nuclear-reactor-equipment",
     subgroup = "equipment",
     order = "a[energy-source]-c[nuclear-reactor]",
-    stack_size = 20
+    stack_size = 20,
+	default_request_amount = 5
+  },
+  {
+    type = "item",
+    name = "singularity-equipment",
+    icon = "__Power Armor MK3__/graphics/icons/singularity-equipment.png",		
+	icon_size = 32,
+    placed_as_equipment_result = "singularity-equipment",
+    subgroup = "equipment",
+    order = "a[energy-source]-d[singularity]",
+    stack_size = 20,
+	default_request_amount = 5
   }
 }  

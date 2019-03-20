@@ -35,16 +35,16 @@ data:extend{
       },
       {
         type = "fire",
-        decrease = 0,
-        percent = 100
+        decrease = 30,
+        percent = 80
       }
     },
     subgroup = "armor",
     order = "f[power-armor-mk3]",
     stack_size = 1,
+	infinite = true,
     equipment_grid = "larger-equipment-grid",
-    inventory_size_bonus = 50
-	
+    inventory_size_bonus = 50	
   },
   {
     type = "armor",
@@ -77,8 +77,8 @@ data:extend{
     subgroup = "armor",
     order = "g[power-armor-mk4]",
     stack_size = 1,
+	infinite = true,
     equipment_grid = "largest-equipment-grid",
-    inventory_size_bonus = 60
-	
+    inventory_size_bonus = 60	
   }
 }  

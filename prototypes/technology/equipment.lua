@@ -83,27 +83,6 @@ data:extend(
   },
     {
     type = "technology",
-    name = "belt-immunity-equipment",
-    icon = "__Power Armor MK3__/graphics/technology/belt-immunity-equipment.png",
-	icon_size = 128,
-	prerequisites = {"modular-armor"},
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "belt-immunity-equipment"
-      }
-    },
-    unit =
-    {
-      count = 50,
-      ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}},
-      time = 15
-    },
-    order = "g-l"
-  },
-    {
-    type = "technology",
     name = "nuclear-reactor-equipment",
     icon = "__Power Armor MK3__/graphics/technology/nuclear-reactor-equipment.png",
 	icon_size = 128,
@@ -125,6 +104,34 @@ data:extend(
         {"military-science-pack", 1}
       },
       time = 30
+    },
+    order = "g-l"
+  },
+    {
+    type = "technology",
+    name = "singularity-equipment",
+    icon = "__Power Armor MK3__/graphics/technology/singularity-equipment.png",	
+	icon_size = 128,
+	prerequisites = {"energy-shield-mk3-equipment", "battery-mk3-equipment", "fusion-reactor-equipment", "power-armor-mk4", "space-science-pack"},
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "singularity-equipment"
+      }
+    },
+    unit =
+    {
+      count = 10000,
+      ingredients = {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"military-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"space-science-pack", 1}
+      },
+      time = 60
     },
     order = "g-l"
   },

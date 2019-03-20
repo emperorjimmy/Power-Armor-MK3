@@ -42,20 +42,6 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "belt-immunity-equipment",
-    enabled = false,
-    energy_required = 10,
-	ingredients = 
-	{
-      {"iron-plate", 20},
-	  {"iron-gear-wheel", 10},
-	  {"steel-plate", 10},
-      {"electronic-circuit", 5}
-    },
-    result = "belt-immunity-equipment"
-  },
-  {
-    type = "recipe",
     name = "nuclear-reactor-equipment",
     enabled = false,
     energy_required = 10,
@@ -67,6 +53,23 @@ data:extend(
       {"uranium-fuel-cell", 5}
     },
     result = "nuclear-reactor-equipment"
+  },
+  {
+    type = "recipe",
+    name = "singularity-equipment",
+    enabled = false,
+    energy_required = 10,
+	ingredients = 
+	{
+	  {"copper-plate", 200},
+	  {"low-density-structure", 200},
+	  {"processing-unit", 100},
+	  {"rocket-control-unit", 50},
+	  {"energy-shield-mk3-equipment", 20},
+	  {"battery-mk3-equipment", 10},
+	  {"fusion-reactor-equipment", 5}
+    },
+    result = "singularity-equipment"
   }
 }
 )
