@@ -1,0 +1,11 @@
+{
+  "technology":
+  [
+  [ "personal-defense-damage-1", "energy-weapons-damage-1" ],
+  [ "personal-defense-damage-2", "energy-weapons-damage-2" ],
+  [ "personal-defense-damage-3", "energy-weapons-damage-3" ],
+  [ "personal-defense-damage-4", "energy-weapons-damage-4" ],
+  [ "personal-defense-damage-5", "energy-weapons-damage-5" ],
+  [ "personal-defense-damage-6", "energy-weapons-damage-6" ]
+  ]
+} 
