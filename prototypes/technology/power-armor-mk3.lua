@@ -11,7 +11,7 @@ data:extend{
         recipe = "power-armor-mk3"
       }
     },
-    prerequisites = {"power-armor-2", "military-4"},
+    prerequisites = {"power-armor-mk2", "military-4"},
     unit =
     {
       count = 200,
