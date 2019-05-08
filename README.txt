@@ -4,6 +4,10 @@ Forum:      https://forums.factorio.com/viewtopic.php?f=190&t=47506
 mod portal: https://mods.factorio.com/mods/jimmy_1283/Power%20Armor%20MK3
 
 Changelog:
+0.2.8-Added Czech locale as provided by DerpgonCz on Github.
+
+0.2.7-Updated for 0.17.36, thanks to 'KunibertSegensreich' for providing users the means to patch manually, and Tanoh on the forums and Github for providing code.
+
 0.2.6-Added French locale as provided by 'kryshnar' on Github. Updated traditional Chinese locale as provided by 'k98a' on Github.
 
 0.2.5-Added German locale as provided by 'LeByom' on Github. Added Chinese locale as provided by 'k98a' on Github. Both of these were submitted before the 'Shielded Singularity' was released, so I filled the gaps with machine translation, I also did the same for the outdated Ru locale. If there are any issues please feel free to submit a pull request on Github.
