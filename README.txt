@@ -4,6 +4,8 @@ Forum:      https://forums.factorio.com/viewtopic.php?f=190&t=47506
 mod portal: https://mods.factorio.com/mods/jimmy_1283/Power%20Armor%20MK3
 
 Changelog:
+0.2.9-Raised max power draw and lowered power per hitpoint on Energy Shield MK3, thanks to Ellipticality on the mod portal for the feedback!
+
 0.2.8-Added Czech locale as provided by DerpgonCz on Github.
 
 0.2.7-Updated for 0.17.36, thanks to 'KunibertSegensreich' for providing users the means to patch manually, and Tanoh on the forums and Github for providing code.
