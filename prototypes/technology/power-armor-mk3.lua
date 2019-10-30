@@ -55,5 +55,30 @@ data:extend{
       time = 120
     },
     order = "g-c-d"
-  }
+  },
+  {
+    type = "technology",
+    name = "heavy-armor",
+    icon_size = 128,
+    icon = "__base__/graphics/technology/armor-making.png",
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "heavy-armor"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "heavy-vest"
+      }
+    },
+    prerequisites = {"military", "steel-processing"},
+    unit =
+    {
+      count = 30,
+      ingredients = {{"automation-science-pack", 1}},
+      time = 30
+    },
+    order = "g-a-b"
+  },
 }  

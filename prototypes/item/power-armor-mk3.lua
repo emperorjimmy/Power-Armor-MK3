@@ -6,6 +6,14 @@ for _, animation in ipairs(data.raw["character"]["character"]["animations"]) do
 		animation.armors[#animation.armors + 1] = "power-armor-mk4"
         break
       end
+	   if armor == "light-armor" then
+        animation.armors[#animation.armors + 1] = "light-vest"
+        break
+      end
+	  if armor == "heavy-armor" then
+        animation.armors[#animation.armors + 1] = "heavy-vest"
+        break
+      end
     end
   end
 end
@@ -80,5 +88,73 @@ data:extend{
 	infinite = true,
     equipment_grid = "largest-equipment-grid",
     inventory_size_bonus = 60	
+  },
+  {
+    type = "armor",
+    name = "light-vest",
+    icon = "__base__/graphics/icons/light-armor.png",
+    icon_size = 32,
+    resistances =
+    {
+      {
+        type = "physical",
+        decrease = 0,
+        percent = 10
+      },
+      {
+        type = "acid",
+        decrease = 0,
+        percent = 10
+      },
+      {
+        type = "explosion",
+        decrease = 0,
+        percent = 10
+      },
+      {
+        type = "fire",
+        decrease = 0,
+        percent = 0
+      }
+    },
+    subgroup = "armor",
+    order = "a[light-vest]",
+    stack_size = 1,
+    infinite = true,
+	inventory_size_bonus = 10
+  },
+  {
+    type = "armor",
+    name = "heavy-vest",
+    icon = "__base__/graphics/icons/heavy-armor.png",
+    icon_size = 32,
+    resistances =
+    {
+      {
+        type = "physical",
+        decrease = 3,
+        percent = 20
+      },
+      {
+        type = "acid",
+        decrease = 0,
+        percent = 20
+      },
+      {
+        type = "explosion",
+        decrease = 2,
+        percent = 20
+      },
+      {
+        type = "fire",
+        decrease = 0,
+        percent = 10
+      }
+    },
+    subgroup = "armor",
+    order = "b[heavy-vest]",
+    stack_size = 1,
+    infinite = true,
+	inventory_size_bonus = 20	
   }
 }  

@@ -62,11 +62,11 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      buffer_capacity = "360kJ",
-      input_flow_limit = "720kW",
+      buffer_capacity = "500kJ",
+      input_flow_limit = "1000kW",
       usage_priority = "primary-input"
     },
-    energy_per_shield = "50kJ",
+    energy_per_shield = "40kJ",
     categories = {"armor"}
   },
   {
@@ -116,7 +116,7 @@ data:extend(
       type = "electric",
       usage_priority = "primary-output"
     },
-    power = "200kW",
+    power = "300kW",
     categories = {"armor"}
   },
   {

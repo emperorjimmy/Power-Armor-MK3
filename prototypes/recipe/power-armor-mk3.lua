@@ -28,5 +28,27 @@ data:extend{
 	},
     result = "power-armor-mk4",
     requester_paste_multiplier = 1
+  },
+  {
+    type = "recipe",
+    name = "light-vest",
+    enabled = true,
+    energy_required = 3,
+    ingredients = {
+		{"iron-plate", 30},
+		{"iron-stick", 4}
+	},
+    result = "light-vest"
+  },
+  {
+    type = "recipe",
+    name = "heavy-vest",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+		{ "copper-plate", 100},
+		{"steel-plate", 50}
+	},
+    result = "heavy-vest"
   }
 }  
