@@ -4,6 +4,8 @@ Forum:      https://forums.factorio.com/viewtopic.php?f=190&t=47506
 mod portal: https://mods.factorio.com/mods/jimmy_1283/Power%20Armor%20MK3
 
 Changelog:
+0.2.10-Buffed Portable Nuclear Reactor equipment and Energy Shield MK3 equipment, added Utility Vest and Heavy Utility Vest, which increase inventory over defense, changed Heavy Armor technology to include heavy vest unlock. Icons are placeholders for now.
+
 0.2.9-Raised max power draw and lowered power per hitpoint on Energy Shield MK3, thanks to Ellipticality on the mod portal for the feedback!
 
 0.2.8-Added Czech locale as provided by DerpgonCz on Github.
