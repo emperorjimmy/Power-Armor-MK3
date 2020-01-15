@@ -15,6 +15,14 @@ end
 if settings.startup["pam3-bm3"].value then
  	data.raw["item"]["battery-mk3-equipment"].enabled = false
 	data.raw["technology"]["battery-mk3-equipment"].enabled = false
+	data.raw["recipe"]["power-armor-mk4"].ingredients =
+	{
+	  {"power-armor-mk3", 1},
+	  {"battery-mk2-equipment", 50},
+	  {"fusion-reactor-equipment", 2},
+	  {"rocket-control-unit", 40},
+	  {"low-density-structure", 200}
+	}
 else
 	data.raw["item"]["battery-mk3-equipment"].enabled = true
 	data.raw["technology"]["battery-mk3-equipment"].enabled = true

@@ -4,6 +4,8 @@ Forum:      https://forums.factorio.com/viewtopic.php?f=190&t=47506
 mod portal: https://mods.factorio.com/mods/jimmy_1283/Power%20Armor%20MK3
 
 Changelog:
+0.2.12-Recipe for Power Armor MK4 changed from 5 Fusion Batteries to 50 Battery MK2 if Fusion Batteries are disabled but Power Armor MK4 is not.
+
 0.2.11-Added settings to disable most items individually.
 
 0.2.10-Buffed Portable Nuclear Reactor equipment and Energy Shield MK3 equipment, added Utility Vest and Heavy Utility Vest, which increase inventory over defense, changed Heavy Armor technology to include heavy vest unlock. Icons are placeholders for now.
