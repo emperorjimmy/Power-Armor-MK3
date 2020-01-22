@@ -93,7 +93,7 @@ data:extend{
     type = "armor",
     name = "light-vest",
     icon = "__base__/graphics/icons/light-armor.png",
-    icon_size = 32, icon_mipmaps = 4,
+    icon_size = 64, icon_mipmaps = 4,
     resistances =
     {
       {
@@ -127,7 +127,7 @@ data:extend{
     type = "armor",
     name = "heavy-vest",
     icon = "__base__/graphics/icons/heavy-armor.png",
-    icon_size = 32, icon_mipmaps = 4,
+    icon_size = 64, icon_mipmaps = 4,
     resistances =
     {
       {

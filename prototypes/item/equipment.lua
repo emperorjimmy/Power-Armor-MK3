@@ -37,7 +37,7 @@ data:extend{
     type = "item",
     name = "nuclear-reactor-equipment",
     icon = "__base__/graphics/icons/nuclear-reactor.png",	
-	icon_size = 32, icon_mipmaps = 4,
+	icon_size = 64, icon_mipmaps = 4,
     placed_as_equipment_result = "nuclear-reactor-equipment",
     subgroup = "equipment",
     order = "a[energy-source]-c[nuclear-reactor]",

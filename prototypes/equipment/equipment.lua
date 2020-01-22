@@ -41,7 +41,7 @@ data:extend(
     },
     categories = {"armor"},
 	darkness_to_turn_on = 0.3,
-    color_lookup = {{0.5, "__core__/graphics/color_luts/lut-day.png"}}
+    color_lookup = {{0.5, "__core__/graphics/color_luts/identity-lut.png"}}
   },
   {
     type = "energy-shield-equipment",
