@@ -4,6 +4,8 @@ Forum:      https://forums.factorio.com/viewtopic.php?f=190&t=47506
 mod portal: https://mods.factorio.com/mods/jimmy_1283/Power%20Armor%20MK3
 
 Changelog:
+0.2.15-Added MipMaps for icons.
+
 0.2.14-Fix for icons and colour LUT for NVG MK2.
 
 0.2.13-Updated for 0.18.x
