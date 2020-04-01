@@ -1,0 +1,44 @@
+{
+  "technology":
+  [
+    ["power-armor-mk3", "pamk3-pamk3"],
+	["power-armor-mk4", "pamk3-pamk4"],
+	["night-vision-mk2-equipment", "pamk3-nvmk2"],
+	["energy-shield-mk3-equipment", "pamk3-esmk3"],
+	["battery-mk3-equipment", "pamk3-battmk3"],
+	["nuclear-reactor-equipment", "pamk3-pnr"],
+	["singularity-equipment", "pamk3-se"]
+  ],
+  "item":
+  [
+    ["light-vest", "pamk3-lvest"],
+	["heavy-vest", "pamk3-hvest"],
+	["power-armor-mk3", "pamk3-pamk3"],
+	["power-armor-mk4", "pamk3-pamk4"],
+	["night-vision-mk2-equipment", "pamk3-nvmk2"],
+	["energy-shield-mk3-equipment", "pamk3-esmk3"],
+	["battery-mk3-equipment", "pamk3-battmk3"],
+	["nuclear-reactor-equipment", "pamk3-pnr"],
+	["singularity-equipment", "pamk3-se"]
+  ],
+  "recipe":
+  [
+    ["light-vest", "pamk3-lvest"],
+	["heavy-vest", "pamk3-hvest"],
+	["power-armor-mk3", "pamk3-pamk3"],
+	["power-armor-mk4", "pamk3-pamk4"],
+	["night-vision-mk2-equipment", "pamk3-nvmk2"],
+	["energy-shield-mk3-equipment", "pamk3-esmk3"],
+	["battery-mk3-equipment", "pamk3-battmk3"],
+	["nuclear-reactor-equipment", "pamk3-pnr"],
+	["singularity-equipment", "pamk3-se"]
+  ],
+  "equipment":
+  [
+	["night-vision-mk2-equipment", "pamk3-nvmk2"],
+	["energy-shield-mk3-equipment", "pamk3-esmk3"],
+	["battery-mk3-equipment", "pamk3-battmk3"],
+	["nuclear-reactor-equipment", "pamk3-pnr"],
+	["singularity-equipment", "pamk3-se"]
+  ]
+}

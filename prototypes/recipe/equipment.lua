@@ -2,7 +2,7 @@ data:extend(
 {
   {
     type = "recipe",
-    name = "night-vision-mk2-equipment",
+    name = "pamk3-nvmk2",
     enabled = false,
     energy_required = 10,
     ingredients =
@@ -11,11 +11,11 @@ data:extend(
       {"low-density-structure", 10},
       {"processing-unit", 5}
     },
-    result = "night-vision-mk2-equipment"
+    result = "pamk3-nvmk2"
   },
   {
     type = "recipe",
-    name = "energy-shield-mk3-equipment",
+    name = "pamk3-esmk3",
     enabled = false,
     energy_required = 10,
     ingredients =
@@ -24,11 +24,11 @@ data:extend(
 	  {"low-density-structure", 30},
       {"rocket-control-unit", 10}
     },
-    result = "energy-shield-mk3-equipment"
+    result = "pamk3-esmk3"
   },
   {
     type = "recipe",
-    name = "battery-mk3-equipment",
+    name = "pamk3-battmk3",
     enabled = false,
     energy_required = 10,
     ingredients =
@@ -38,11 +38,11 @@ data:extend(
       {"rocket-control-unit", 5},
 	  {"effectivity-module-3", 2}
     },
-    result = "battery-mk3-equipment"
+    result = "pamk3-battmk3"
   },
   {
     type = "recipe",
-    name = "nuclear-reactor-equipment",
+    name = "pamk3-pnr",
     enabled = false,
     energy_required = 10,
 	ingredients = 
@@ -52,11 +52,11 @@ data:extend(
       {"advanced-circuit", 10},
       {"uranium-fuel-cell", 5}
     },
-    result = "nuclear-reactor-equipment"
+    result = "pamk3-pnr"
   },
   {
     type = "recipe",
-    name = "singularity-equipment",
+    name = "pamk3-se",
     enabled = false,
     energy_required = 10,
 	ingredients = 
@@ -65,11 +65,11 @@ data:extend(
 	  {"low-density-structure", 200},
 	  {"processing-unit", 100},
 	  {"rocket-control-unit", 50},
-	  {"energy-shield-mk3-equipment", 20},
-	  {"battery-mk3-equipment", 10},
+	  {"pamk3-esmk3", 20},
+	  {"pamk3-battmk3", 10},
 	  {"fusion-reactor-equipment", 5}
     },
-    result = "singularity-equipment"
+    result = "pamk3-se"
   }
 }
 )

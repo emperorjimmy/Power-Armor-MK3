@@ -1,7 +1,7 @@
 data:extend{
   {
     type = "recipe",
-    name = "power-armor-mk3",
+    name = "pamk3-pamk3",
     enabled = false,
     energy_required = 40,
     ingredients = {
@@ -11,44 +11,46 @@ data:extend{
 	  {"processing-unit", 120},
 	  {"low-density-structure", 80}
 	},
-    result = "power-armor-mk3",
+    result = "pamk3-pamk3",
     requester_paste_multiplier = 1
   },
   {
     type = "recipe",
-    name = "power-armor-mk4",
+    name = "pamk3-pamk4",
     enabled = false,
     energy_required = 120,
     ingredients = {
-	  {"power-armor-mk3", 1},
-	  {"battery-mk3-equipment", 5},
+	  {"pamk3-pamk3", 1},
+	  {"pamk3-battmk3", 5},
 	  {"fusion-reactor-equipment", 2},
 	  {"rocket-control-unit", 40},
 	  {"low-density-structure", 200}
 	},
-    result = "power-armor-mk4",
+    result = "pamk3-pamk4",
     requester_paste_multiplier = 1
   },
   {
     type = "recipe",
-    name = "light-vest",
+    name = "pamk3-lvest",
     enabled = true,
     energy_required = 3,
     ingredients = {
 		{"iron-plate", 30},
 		{"iron-stick", 4}
 	},
-    result = "light-vest"
+    result = "pamk3-lvest",
+    requester_paste_multiplier = 1
   },
   {
     type = "recipe",
-    name = "heavy-vest",
+    name = "pamk3-hvest",
     enabled = false,
     energy_required = 8,
     ingredients = {
 		{ "copper-plate", 100},
 		{"steel-plate", 50}
 	},
-    result = "heavy-vest"
+    result = "pamk3-hvest",
+    requester_paste_multiplier = 1
   }
 }  

@@ -1,17 +1,17 @@
 data:extend{
   {
     type = "technology",
-    name = "power-armor-mk3",
-    icon = "__Power Armor MK3__/graphics/technology/power-armor-mk3.png",
+    name = "pamk3-pamk3",
+    icon = "__Power Armor MK3__/graphics/technology/pamk3-pamk3.png",
 	icon_size = 128,
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "power-armor-mk3"
+        recipe = "pamk3-pamk3"
       }
     },
-    prerequisites = {"power-armor-mk2", "military-4"},
+    prerequisites = {"power-armor-mk2", "military-4", "effectivity-module-3", "speed-module-3"},
     unit =
     {
       count = 200,
@@ -29,17 +29,17 @@ data:extend{
   },
   {
     type = "technology",
-    name = "power-armor-mk4",
-    icon = "__Power Armor MK3__/graphics/technology/power-armor-mk4.png",
+    name = "pamk3-pamk4",
+    icon = "__Power Armor MK3__/graphics/technology/pamk3-pamk4.png",
 	icon_size = 128,
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "power-armor-mk4"
+        recipe = "pamk3-pamk4"
       }
     },
-    prerequisites = {"power-armor-mk3", "space-science-pack"},
+    prerequisites = {"pamk3-pamk3", "fusion-reactor-equipment", "space-science-pack", "pamk3-battmk3"},
     unit =
     {
       count = 1000,
@@ -69,7 +69,7 @@ data:extend{
       },
 	  {
         type = "unlock-recipe",
-        recipe = "heavy-vest"
+        recipe = "pamk3-hvest"
       }
     },
     prerequisites = {"military", "steel-processing"},
