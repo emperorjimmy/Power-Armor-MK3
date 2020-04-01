@@ -2,7 +2,7 @@ data:extend(
 {
   {
     type = "night-vision-equipment",
-    name = "night-vision-mk2-equipment",
+    name = "pamk3-nvmk2",
     sprite =
     {
       filename = "__base__/graphics/equipment/night-vision-equipment.png",
@@ -45,10 +45,10 @@ data:extend(
   },
   {
     type = "energy-shield-equipment",
-    name = "energy-shield-mk3-equipment",
+    name = "pamk3-esmk3",
     sprite =
     {
-      filename = "__Power Armor MK3__/graphics/equipment/energy-shield-mk3-equipment.png",
+      filename = "__Power Armor MK3__/graphics/equipment/pamk3-esmk3.png",
       width = 64,
       height = 64,
       priority = "medium"
@@ -72,10 +72,10 @@ data:extend(
   },
   {
     type = "battery-equipment",
-    name = "battery-mk3-equipment",
+    name = "pamk3-battmk3",
     sprite =
     {
-      filename = "__Power Armor MK3__/graphics/equipment/battery-mk3-equipment.png",
+      filename = "__Power Armor MK3__/graphics/equipment/pamk3-battmk3.png",
       width = 64,
       height = 96,
       priority = "medium"
@@ -98,10 +98,10 @@ data:extend(
   },
   {
     type = "generator-equipment",
-    name = "nuclear-reactor-equipment",
+    name = "pamk3-pnr",
     sprite =
     {
-      filename = "__Power Armor MK3__/graphics/equipment/nuclear-reactor-equipment.png",
+      filename = "__Power Armor MK3__/graphics/equipment/pamk3-pnr.png",
       width = 96,
       height = 96,
       priority = "medium"
@@ -122,10 +122,10 @@ data:extend(
   },
   {
     type = "generator-equipment",
-    name = "singularity-equipment",
+    name = "pamk3-se",
     sprite =
     {
-      filename = "__Power Armor MK3__/graphics/equipment/singularity-equipment.png",
+      filename = "__Power Armor MK3__/graphics/equipment/pamk3-se.png",
       width = 128,
       height = 128,
       priority = "medium"

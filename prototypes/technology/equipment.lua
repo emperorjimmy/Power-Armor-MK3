@@ -2,15 +2,15 @@ data:extend(
 {
   {
     type = "technology",
-    name = "night-vision-mk2-equipment",
-    icon = "__Power Armor MK3__/graphics/technology/night-vision-mk2-equipment.png",	
+    name = "pamk3-nvmk2",
+    icon = "__Power Armor MK3__/graphics/technology/pamk3-nvmk2.png",	
 	icon_size = 128,
     prerequisites = {"night-vision-equipment"},
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "night-vision-mk2-equipment"
+        recipe = "pamk3-nvmk2"
       }
     },
     unit =
@@ -28,15 +28,15 @@ data:extend(
   },
   {
     type = "technology",
-    name = "energy-shield-mk3-equipment",
-    icon = "__Power Armor MK3__/graphics/technology/energy-shield-mk3-equipment.png",	
+    name = "pamk3-esmk3",
+    icon = "__Power Armor MK3__/graphics/technology/pamk3-esmk3.png",	
 	icon_size = 128,
-    prerequisites = {"energy-shield-mk2-equipment", "power-armor-mk3"},
+    prerequisites = {"energy-shield-mk2-equipment", "pamk3-pamk3"},
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "energy-shield-mk3-equipment"
+        recipe = "pamk3-esmk3"
       }
     },
     unit =
@@ -56,15 +56,15 @@ data:extend(
   },
   {
     type = "technology",
-    name = "battery-mk3-equipment",
-    icon = "__Power Armor MK3__/graphics/technology/battery-mk3-equipment.png",	
+    name = "pamk3-battmk3",
+    icon = "__Power Armor MK3__/graphics/technology/pamk3-battmk3.png",	
 	icon_size = 128,
     prerequisites = {"battery-mk2-equipment", "fusion-reactor-equipment"},
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "battery-mk3-equipment"
+        recipe = "pamk3-battmk3"
       }
     },
     unit =
@@ -83,15 +83,15 @@ data:extend(
   },
     {
     type = "technology",
-    name = "nuclear-reactor-equipment",
-    icon = "__Power Armor MK3__/graphics/technology/nuclear-reactor-equipment.png",
+    name = "pamk3-pnr",
+    icon = "__Power Armor MK3__/graphics/technology/pamk3-pnr.png",
 	icon_size = 128,
 	prerequisites = {"power-armor", "nuclear-power"},
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "nuclear-reactor-equipment"
+        recipe = "pamk3-pnr"
       }
     },
     unit =
@@ -109,15 +109,15 @@ data:extend(
   },
     {
     type = "technology",
-    name = "singularity-equipment",
-    icon = "__Power Armor MK3__/graphics/technology/singularity-equipment.png",	
+    name = "pamk3-se",
+    icon = "__Power Armor MK3__/graphics/technology/pamk3-se.png",	
 	icon_size = 128,
-	prerequisites = {"energy-shield-mk3-equipment", "battery-mk3-equipment", "fusion-reactor-equipment", "power-armor-mk4", "space-science-pack"},
+	prerequisites = {"pamk3-esmk3", "pamk3-battmk3", "fusion-reactor-equipment", "pamk3-pamk4", "space-science-pack"},
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "singularity-equipment"
+        recipe = "pamk3-se"
       }
     },
     unit =

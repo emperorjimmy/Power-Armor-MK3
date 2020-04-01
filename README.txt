@@ -4,6 +4,8 @@ Forum:      https://forums.factorio.com/viewtopic.php?f=190&t=47506
 mod portal: https://mods.factorio.com/mods/jimmy_1283/Power%20Armor%20MK3
 
 Changelog:
+0.2.16-Updated tech prerequisites for Power Armor MK3 and MK4. Changed internal names for all mod items to prevent conflicts.Added optional dependency for Industrial Revolution, changed recipes and tech to suit, other changes for proper integration. (IR compatibility added by request, to my knowledge there is no 0.18 version of IR at this time.)
+
 0.2.15-Added MipMaps for icons.
 
 0.2.14-Fix for icons and colour LUT for NVG MK2.

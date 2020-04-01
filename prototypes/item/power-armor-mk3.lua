@@ -2,16 +2,16 @@ for _, animation in ipairs(data.raw["character"]["character"]["animations"]) do
   if animation.armors then
     for _, armor in ipairs(animation.armors) do
       if armor == "power-armor-mk2" then
-        animation.armors[#animation.armors + 1] = "power-armor-mk3"
-		animation.armors[#animation.armors + 1] = "power-armor-mk4"
+        animation.armors[#animation.armors + 1] = "pamk3-pamk3"
+		animation.armors[#animation.armors + 1] = "pamk3-pamk4"
         break
       end
 	   if armor == "light-armor" then
-        animation.armors[#animation.armors + 1] = "light-vest"
+        animation.armors[#animation.armors + 1] = "pamk3-lvest"
         break
       end
 	  if armor == "heavy-armor" then
-        animation.armors[#animation.armors + 1] = "heavy-vest"
+        animation.armors[#animation.armors + 1] = "pamk3-hvest"
         break
       end
     end
@@ -21,8 +21,8 @@ end
 data:extend{
   {
     type = "armor",
-    name = "power-armor-mk3",
-    icon = "__Power Armor MK3__/graphics/icons/power-armor-mk3.png",	
+    name = "pamk3-pamk3",
+    icon = "__Power Armor MK3__/graphics/icons/pamk3-pamk3.png",	
 	icon_size = 64, icon_mipmaps = 4,
     resistances =
     {
@@ -48,7 +48,7 @@ data:extend{
       }
     },
     subgroup = "armor",
-    order = "f[power-armor-mk3]",
+    order = "f[pamk3-pamk3]",
     stack_size = 1,
 	infinite = true,
     equipment_grid = "larger-equipment-grid",
@@ -56,8 +56,8 @@ data:extend{
   },
   {
     type = "armor",
-    name = "power-armor-mk4",
-    icon = "__Power Armor MK3__/graphics/icons/power-armor-mk4.png",	
+    name = "pamk3-pamk4",
+    icon = "__Power Armor MK3__/graphics/icons/pamk3-pamk4.png",	
 	icon_size = 64, icon_mipmaps = 4,
     resistances =
     {
@@ -83,7 +83,7 @@ data:extend{
       }
     },
     subgroup = "armor",
-    order = "g[power-armor-mk4]",
+    order = "g[pamk3-pamk4]",
     stack_size = 1,
 	infinite = true,
     equipment_grid = "largest-equipment-grid",
@@ -91,7 +91,7 @@ data:extend{
   },
   {
     type = "armor",
-    name = "light-vest",
+    name = "pamk3-lvest",
     icon = "__base__/graphics/icons/light-armor.png",
     icon_size = 64, icon_mipmaps = 4,
     resistances =
@@ -118,14 +118,14 @@ data:extend{
       }
     },
     subgroup = "armor",
-    order = "a[light-vest]",
+    order = "a[pamk3-lvest]",
     stack_size = 1,
     infinite = true,
 	inventory_size_bonus = 10
   },
   {
     type = "armor",
-    name = "heavy-vest",
+    name = "pamk3-hvest",
     icon = "__base__/graphics/icons/heavy-armor.png",
     icon_size = 64, icon_mipmaps = 4,
     resistances =
@@ -152,7 +152,7 @@ data:extend{
       }
     },
     subgroup = "armor",
-    order = "b[heavy-vest]",
+    order = "b[pamk3-hvest]",
     stack_size = 1,
     infinite = true,
 	inventory_size_bonus = 20	
