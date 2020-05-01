@@ -18,6 +18,9 @@ if settings.startup["pam3-esm3"].value then
 	  {"pamk3-battmk3", 10},
 	  {"fusion-reactor-equipment", 5}
     }
+	data.raw.technology["pamk3-se"].prerequisites = {
+	  "pamk3-battmk3", "fusion-reactor-equipment", "pamk3-pamk4", "space-science-pack",
+	}
 else
 	data.raw["item"]["pamk3-esmk3"].enabled = true
 	data.raw["technology"]["pamk3-esmk3"].enabled = true
@@ -43,15 +46,17 @@ if settings.startup["pam3-bm3"].value then
 	  {"battery-mk2-equipment", 100},
 	  {"fusion-reactor-equipment", 5}
     }
+	data.raw.technology["pamk3-se"].prerequisites = {
+	  "pamk3-esmk3", "fusion-reactor-equipment", "pamk3-pamk4", "space-science-pack",
+	}
+	data.raw.technology["pamk3-pamk4"].prerequisites = {
+	  "pamk3-pamk3", "fusion-reactor-equipment", "space-science-pack",
+	}
 else
 	data.raw["item"]["pamk3-battmk3"].enabled = true
 	data.raw["technology"]["pamk3-battmk3"].enabled = true
 end
 if settings.startup["pam3-bm3"].value and settings.startup["pam3-esm3"].value then
- 	data.raw["item"]["pamk3-esmk3"].enabled = false
-	data.raw["technology"]["pamk3-esmk3"].enabled = false
- 	data.raw["item"]["pamk3-battmk3"].enabled = false
-	data.raw["technology"]["pamk3-battmk3"].enabled = false
 	data.raw["recipe"]["pamk3-pamk4"].ingredients =
 	{
 	  {"pamk3-pamk3", 1},
@@ -70,6 +75,14 @@ if settings.startup["pam3-bm3"].value and settings.startup["pam3-esm3"].value th
 	  {"battery-mk2-equipment", 100},
 	  {"fusion-reactor-equipment", 5}
     }
+	data.raw.technology["pamk3-se"].prerequisites = {
+	  "fusion-reactor-equipment", "pamk3-pamk4", "space-science-pack",
+	}
+end
+if settings.startup["pam3-bm3"].value and settings.startup["pam3-esm3"].value and settings.startup["pam3-pam4"].value then
+	data.raw.technology["pamk3-se"].prerequisites = {
+	  "fusion-reactor-equipment", "space-science-pack",
+	}
 end
 if settings.startup["pam3-pnr"].value then
  	data.raw["item"]["pamk3-pnr"].enabled = false
