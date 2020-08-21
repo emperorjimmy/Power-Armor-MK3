@@ -17,7 +17,7 @@ data:extend{
     icon = "__Power Armor MK3__/graphics/icons/pamk3-esmk3.png",	
 	icon_size = 64, icon_mipmaps = 4,
     placed_as_equipment_result = "pamk3-esmk3",
-    subgroup = "equipment",
+    subgroup = "military-equipment",
     order = "b[shield]-c[energy-shield-equipment-mk3]",
     stack_size = 50,
     default_request_amount = 5
