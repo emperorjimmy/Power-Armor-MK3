@@ -14,14 +14,15 @@ data:extend{
     prerequisites = {"power-armor-mk2", "military-4", "effectivity-module-3", "speed-module-3"},
     unit =
     {
-      count = 200,
+      count = 600,
       ingredients =
       {
         {"automation-science-pack", 1},
         {"logistic-science-pack", 1},
-        {"chemical-science-pack", 2},
-        {"military-science-pack", 3},
-        {"utility-science-pack", 3}
+        {"chemical-science-pack", 1},
+        {"military-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"production-science-pack", 1}
       },
       time = 60
     },
@@ -42,15 +43,16 @@ data:extend{
     prerequisites = {"pamk3-pamk3", "fusion-reactor-equipment", "space-science-pack", "pamk3-battmk3"},
     unit =
     {
-      count = 1000,
+      count = 2000,
       ingredients =
       {
         {"automation-science-pack", 1},
         {"logistic-science-pack", 1},
         {"chemical-science-pack", 1},
-        {"military-science-pack", 2},
-        {"utility-science-pack", 3},
-		{"space-science-pack", 5}
+        {"military-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"production-science-pack", 1},
+		{"space-science-pack", 1}
       },
       time = 120
     },
