@@ -1,3 +1,17 @@
+local physical_projectile_damage_1_icon = "__base__/graphics/technology/physical-projectile-damage-1.png"
+local physical_projectile_damage_2_icon = "__base__/graphics/technology/physical-projectile-damage-2.png"
+local stronger_explosives_1_icon = "__base__/graphics/technology/stronger-explosives-1.png"
+local stronger_explosives_2_icon = "__base__/graphics/technology/stronger-explosives-2.png"
+local stronger_explosives_3_icon = "__base__/graphics/technology/stronger-explosives-3.png"
+local refined_flammables_icon = "__base__/graphics/technology/refined-flammables.png"
+local energy_weapons_damage_1_icon = "__base__/graphics/technology/energy-weapons-damage.png"
+local energy_weapons_damage_2_icon = "__base__/graphics/technology/energy-weapons-damage.png"
+local energy_weapons_damage_3_icon = "__base__/graphics/technology/energy-weapons-damage.png"
+local weapon_shooting_speed_1_icon = "__base__/graphics/technology/weapon-shooting-speed-1.png"
+local weapon_shooting_speed_2_icon = "__base__/graphics/technology/weapon-shooting-speed-2.png"
+local weapon_shooting_speed_3_icon = "__base__/graphics/technology/weapon-shooting-speed-3.png"
+local laser_shooting_speed_icon = "__base__/graphics/technology/laser-shooting-speed.png"
+
 data:extend(
 {
   {
@@ -41,14 +55,14 @@ data:extend(
     },
     unit =
     {
-      count = 150,
+      count = 200,
       ingredients =
       {
         {"automation-science-pack", 1},
         {"logistic-science-pack", 1},
         {"chemical-science-pack", 1},
         {"military-science-pack", 1},
-        {"utility-science-pack", 3}
+        {"utility-science-pack", 1}
       },
       time = 45
     },
@@ -75,7 +89,7 @@ data:extend(
         {"automation-science-pack", 1},
         {"logistic-science-pack", 1},
         {"chemical-science-pack", 1},
-        {"utility-science-pack", 2}
+        {"utility-science-pack", 1}
       },
       time = 30
     },
@@ -86,7 +100,7 @@ data:extend(
     name = "pamk3-pnr",
     icon = "__Power Armor MK3__/graphics/technology/pamk3-pnr.png",
 	icon_size = 128,
-	prerequisites = {"power-armor", "nuclear-power"},
+	prerequisites = {"power-armor", "uranium-processing"},
     effects =
     {
       {
@@ -138,13 +152,13 @@ data:extend(
 	{
     type = "technology",
     name = "energy-weapons-damage-1",
-    icon_size = 128,
-    icon = "__base__/graphics/technology/energy-weapons-damage-1.png",
+    icon_size = 256, icon_mipmaps = 4,
+    icons = util.technology_icon_constant_damage(energy_weapons_damage_1_icon),
     effects =
     {
       {
         type = "ammo-damage",
-        ammo_category = "laser-turret",
+        ammo_category = "laser",
         modifier = 0.2
       },
 	  {
@@ -171,13 +185,13 @@ data:extend(
   {
     type = "technology",
     name = "energy-weapons-damage-2",
-    icon_size = 128,
-    icon = "__base__/graphics/technology/energy-weapons-damage-1.png",
+    icon_size = 256, icon_mipmaps = 4,
+    icons = util.technology_icon_constant_damage(energy_weapons_damage_1_icon),
     effects =
     {
       {
         type = "ammo-damage",
-        ammo_category = "laser-turret",
+        ammo_category = "laser",
         modifier = 0.2
       },
 	  {
@@ -204,13 +218,13 @@ data:extend(
   {
     type = "technology",
     name = "energy-weapons-damage-3",
-    icon_size = 128,
-    icon = "__base__/graphics/technology/energy-weapons-damage-1.png",
+    icon_size = 256, icon_mipmaps = 4,
+    icons = util.technology_icon_constant_damage(energy_weapons_damage_1_icon),
     effects =
     {
       {
         type = "ammo-damage",
-        ammo_category = "laser-turret",
+        ammo_category = "laser",
         modifier = 0.3
       },
 	  {
@@ -237,19 +251,14 @@ data:extend(
   {
     type = "technology",
     name = "energy-weapons-damage-4",
-    icon_size = 128,
-    icon = "__base__/graphics/technology/energy-weapons-damage-2.png",
+    icon_size = 256, icon_mipmaps = 4,
+    icons = util.technology_icon_constant_damage(energy_weapons_damage_1_icon),
     effects =
     {
       {
         type = "ammo-damage",
-        ammo_category = "laser-turret",
+        ammo_category = "laser",
         modifier = 0.4
-      },
-      {
-        type = "ammo-damage",
-        ammo_category = "combat-robot-laser",
-        modifier = 0.2
       },
 	  {
         type = "ammo-damage",
@@ -276,23 +285,18 @@ data:extend(
   {
     type = "technology",
     name = "energy-weapons-damage-5",
-    icon_size = 128,
-    icon = "__base__/graphics/technology/energy-weapons-damage-3.png",
+    icon_size = 256, icon_mipmaps = 4,
+    icons = util.technology_icon_constant_damage(energy_weapons_damage_1_icon),
     effects =
     {
       {
         type = "ammo-damage",
-        ammo_category = "laser-turret",
+        ammo_category = "laser",
         modifier = 0.5
       },
       {
         type = "ammo-damage",
-        ammo_category = "combat-robot-laser",
-        modifier = 0.4
-      },
-      {
-        type = "ammo-damage",
-        ammo_category = "combat-robot-beam",
+        ammo_category = "beam",
         modifier = 0.4
       },
 	  {
@@ -321,24 +325,19 @@ data:extend(
   {
     type = "technology",
     name = "energy-weapons-damage-6",
-    icon_size = 128,
-    icon = "__base__/graphics/technology/energy-weapons-damage-3.png",
+    icon_size = 256, icon_mipmaps = 4,
+    icons = util.technology_icon_constant_damage(energy_weapons_damage_1_icon),
     effects =
     {
       {
         type = "ammo-damage",
-        ammo_category = "laser-turret",
+        ammo_category = "laser",
         modifier = 0.7
       },
       {
         type = "ammo-damage",
-        ammo_category = "combat-robot-laser",
+        ammo_category = "beam",
         modifier = 0.4
-      },
-      {
-        type = "ammo-damage",
-        ammo_category = "combat-robot-beam",
-        modifier = 0.6
       },
 	  {
         type = "ammo-damage",
@@ -366,24 +365,19 @@ data:extend(
   {
     type = "technology",
     name = "energy-weapons-damage-7",
-    icon_size = 128,
-    icon = "__base__/graphics/technology/energy-weapons-damage-3.png",
+    icon_size = 256, icon_mipmaps = 4,
+    icons = util.technology_icon_constant_damage(energy_weapons_damage_1_icon),
     effects =
     {
       {
         type = "ammo-damage",
-        ammo_category = "laser-turret",
+        ammo_category = "laser",
         modifier = 0.7
       },
       {
         type = "ammo-damage",
-        ammo_category = "combat-robot-laser",
-        modifier = 0.3
-      },
-      {
-        type = "ammo-damage",
-        ammo_category = "combat-robot-beam",
-        modifier = 0.3
+        ammo_category = "beam",
+        modifier = 0.4
       },
 	  {
         type = "ammo-damage",

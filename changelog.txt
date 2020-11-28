@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.01
+Date: 2020-11-29
+  Info:
+    - Updated for Factorio version 1.1.x
+    - Internal changes to tech to fall inline with changes to base game.
+  Changes:
+    - Changed Energy Shield MK3 subgroup so it appears alongside other shields.
+    - Changed Portable Nuclear Reactor technology prerequisite from Nuclear Power to Uranium Refining.
+    - Changed technology ingredients to be even amounts on all tech.
+---------------------------------------------------------------------------------------------------
 Version: 0.2.20
 Date: 2020-08-17
   Info:
@@ -55,7 +65,7 @@ Version: 0.2.11
     - Added settings to disable most items individually.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.10
-  Feature:
+  Features:
     - Added Utility Vest and Heavy Utility Vest with placeholder images.
   Changes:
     - Changed Heavy Armor technology to include Heavy Utility Vest unlock.
@@ -85,7 +95,7 @@ Version: 0.2.5
     - Added Chinese locale.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.4
-  Feature:
+  Features:
     - Added new power generator Shielded Singularity, associated research, and graphics.
   Changes:
     - Removed Belt immunity equipment as it's now in vanilla.
@@ -118,7 +128,7 @@ Version: 0.1.8
     - Added new images for Power Armor MK3 and MK4.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.7
-  Feature:
+  Features:
     - Added Portable Nuclear Reactor equipment, with placeholder images.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.6
@@ -148,7 +158,7 @@ Version: 0.1.1
     - Fixed Power Armor MK3 Player sprite (again).
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
-  Feature:
+  Features:
     - Added Belt Immunity equipment recipe and research.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.9
@@ -171,7 +181,7 @@ Version: 0.0.7
     - Fixed inventory mods incompatibility issues.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.6
-  Feature:
+  Features:
     - Power Armor 2 sprite now appears on character!
   Changes:
     - Resized Night vision equipment to 2x2 to match vanilla change.
@@ -188,17 +198,17 @@ Version: 0.0.5
     - Changed grid size from 20x20 to 14x14.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.4
-  Feature:
+  Features:
     - Added Fusion batteries.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.3
-  Feature:
+  Features:
     - Added Energy shield MK3.
   Locale:
     - Changed some text in locale to keep consistency with vanilla naming conventions.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.2
-  Feature:
+  Features:
     - Added Nightvision MK2.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.1
