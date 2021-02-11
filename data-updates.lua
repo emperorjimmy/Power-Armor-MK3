@@ -105,3 +105,7 @@ else
 	data.raw["armor"]["pamk3-pamk4"].enabled = true
 	data.raw["technology"]["pamk3-pamk4"].enabled = true
 end
+if settings.startup["pam3-sgxl"].value then
+ 	data.raw["equipment-grid"]['spidertron-equipment-grid'].width = 16
+	data.raw["equipment-grid"]['spidertron-equipment-grid'].height = 8
+end
