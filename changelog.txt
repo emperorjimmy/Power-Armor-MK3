@@ -1,8 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.03
+Date: 2021-02-24
+  Features:
+    - Added option to enable custom grid dimensions for Power Armor MK4. (disabled by default, 20x20 by default)
+  Changes:
+    - Changed option to increase Spidertron's equipment grid from 16x8 to custom size. (disabled by default, 16x8 by default)
+  Info:
+    - Custom grid size has a minimum value of 1 with no set maximum, be careful with large numbers!
+    - I'm asking for volunteers to update/contribute to localisation, no machine translations please.
+---------------------------------------------------------------------------------------------------
 Version: 0.3.02
 Date: 2021-02-11
   Features:
-    - Added option to increase Spidertron's equipment grid to 16x8. (disabled by default).
+    - Added option to increase Spidertron's equipment grid to 16x8. (disabled by default)
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.01
 Date: 2020-11-29

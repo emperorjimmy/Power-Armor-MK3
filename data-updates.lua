@@ -105,7 +105,15 @@ else
 	data.raw["armor"]["pamk3-pamk4"].enabled = true
 	data.raw["technology"]["pamk3-pamk4"].enabled = true
 end
+local spidertron_grid_width = settings.startup["pam3-sgw"].value
+local spidertron_grid_height = settings.startup["pam3-sgh"].value
 if settings.startup["pam3-sgxl"].value then
- 	data.raw["equipment-grid"]['spidertron-equipment-grid'].width = 16
-	data.raw["equipment-grid"]['spidertron-equipment-grid'].height = 8
+ 	data.raw["equipment-grid"]["spidertron-equipment-grid"].width = spidertron_grid_width
+	data.raw["equipment-grid"]["spidertron-equipment-grid"].height = spidertron_grid_height
+end
+local PAM4_grid_width = settings.startup["pam3-p4gw"].value
+local PAM4_grid_height = settings.startup["pam3-p4gh"].value
+if settings.startup["pam3-p4xl"].value then
+ 	data.raw["equipment-grid2"]["largest-equipment-grid"].width = PAM4_grid_width
+	data.raw["equipment-grid2"]["largest-equipment-grid"].height = PAM4_grid_height
 end
