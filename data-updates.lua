@@ -114,6 +114,6 @@ end
 local PAM4_grid_width = settings.startup["pam3-p4gw"].value
 local PAM4_grid_height = settings.startup["pam3-p4gh"].value
 if settings.startup["pam3-p4xl"].value then
- 	data.raw["equipment-grid2"]["largest-equipment-grid"].width = PAM4_grid_width
-	data.raw["equipment-grid2"]["largest-equipment-grid"].height = PAM4_grid_height
+ 	data.raw["equipment-grid"]["largest-equipment-grid"].width = PAM4_grid_width
+	data.raw["equipment-grid"]["largest-equipment-grid"].height = PAM4_grid_height
 end
