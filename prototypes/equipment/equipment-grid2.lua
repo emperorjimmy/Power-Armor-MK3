@@ -14,12 +14,5 @@ data:extend(
     height = 20,
     equipment_categories = {"armor"}
   },
-  {
-    type = "equipment-grid",
-    name = "spidertronxl-equipment-grid",
-    width = 16,
-    height = 8,
-    equipment_categories = {"armor"}
-  },
 }
 )
