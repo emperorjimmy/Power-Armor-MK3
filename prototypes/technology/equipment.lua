@@ -132,6 +132,10 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "pamk3-se"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "pamk3-inff"
       }
     },
     unit =

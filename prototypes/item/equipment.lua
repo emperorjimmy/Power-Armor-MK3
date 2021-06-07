@@ -54,5 +54,19 @@ data:extend{
     order = "a[energy-source]-d[singularity]",
     stack_size = 20,
 	default_request_amount = 5
+  },
+  {
+    type = "item",
+    name = "pamk3-inff",
+    icon = "__Power Armor MK3__/graphics/icons/pamk3-se.png",
+   icon_size = 64, icon_mipmaps = 4,
+    fuel_category = "chemical",
+    fuel_value = "1000YJ",
+    fuel_acceleration_multiplier = 3,
+    fuel_top_speed_multiplier = 1.2,
+    subgroup = "intermediate-product",
+    order = "q[infinite-fuel]-b",
+    stack_size = 1,
+	default_request_amount = 1
   }
 }  
