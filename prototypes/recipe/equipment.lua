@@ -70,6 +70,17 @@ data:extend(
 	  {"fusion-reactor-equipment", 5}
     },
     result = "pamk3-se"
+  },
+  {
+    type = "recipe",
+    name = "pamk3-inff",
+    enabled = false,
+    energy_required = 10,
+	ingredients = 
+	{
+	  {"pamk3-se", 1}
+    },
+    result = "pamk3-inff"
   }
 }
 )
