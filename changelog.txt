@@ -1,4 +1,29 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.08
+Date: 2021-06-07
+  Bugfixes:
+    - Enabling/disabling of items no longer requires a new game to work.
+  Features:
+    - Added recipe to convert Shielded Singularity into Singularity Fuel Source.
+  Changes:
+    - Added Singularity Fuel Source to Shielded Singularity Equipment technology.
+    - Added option to enable/disable Singularity Fuel Source. (disabled by default)
+  Info:
+    - Singularity Fuel Source is functionally infinite, it will take a very long time to burn, and provides higher acceleration and top speed for vehicles.
+    - !!!Warning!!! Singularity Fuel Source will be lost if the entity 'burning' it is picked up after being fueled.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.07
+Date: 2021-06-07
+  Bugfixes:
+    - Fixed Russian locale.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.06
+Date: 2021-06-06
+  Locale:
+    - Updated Russian locale.
+  Bugfixes:
+    - Fixed 'Heavy Armor' technology sprite.
+---------------------------------------------------------------------------------------------------
 Version: 0.3.05
 Date: 2021-06-05
   Locale:
