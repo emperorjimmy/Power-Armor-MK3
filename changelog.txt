@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2021-12-16
+  Visuals:
+    - All graphics reworked (in HD).
+    - Heavy armor tech uses the correct sprite.
+    - New mod icon.
+    - Equipment techs now use the ingame symbol.
+---------------------------------------------------------------------------------------------------
 Version: 0.3.08
 Date: 2021-06-07
   Bugfixes:
@@ -74,7 +82,7 @@ Date: 2020-08-16
       Updated to Factorio 1.0.
   Graphics:
     - Deleted old images.
-      Updated Energy Shield MK3 and Fusion Battery images. 
+      Updated Energy Shield MK3 and Fusion Battery images.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.18
   Locale:

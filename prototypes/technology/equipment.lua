@@ -16,7 +16,8 @@ data:extend({
   {
     type = "technology",
     name = "pamk3-nvmk2",
-    icon = "__Power Armor MK3__/graphics/technology/pamk3-nvmk2.png",
+    --icon = "__Power Armor MK3__/graphics/technology/pamk3-nvmk2.png",
+    icons = util.technology_icon_constant_equipment("__Power Armor MK3__/graphics/technology/pamk3-nvmk2.png"),
     icon_size = 256,
     prerequisites = {"night-vision-equipment"},
     effects =
@@ -42,7 +43,8 @@ data:extend({
   {
     type = "technology",
     name = "pamk3-esmk3",
-    icon = "__Power Armor MK3__/graphics/technology/pamk3-esmk3.png",
+    --icon = "__Power Armor MK3__/graphics/technology/pamk3-esmk3.png",
+    icons = util.technology_icon_constant_equipment("__Power Armor MK3__/graphics/technology/pamk3-esmk3.png"),
     icon_size = 256,
     prerequisites = {"energy-shield-mk2-equipment", "pamk3-pamk3"},
     effects =
@@ -70,7 +72,8 @@ data:extend({
   {
     type = "technology",
     name = "pamk3-battmk3",
-    icon = "__Power Armor MK3__/graphics/technology/pamk3-battmk3.png",
+    --icon = "__Power Armor MK3__/graphics/technology/pamk3-battmk3.png",
+    icons = util.technology_icon_constant_equipment("__Power Armor MK3__/graphics/technology/pamk3-battmk3.png"),
     icon_size = 256,
     prerequisites = {"battery-mk2-equipment", "fusion-reactor-equipment"},
     effects =
@@ -97,7 +100,8 @@ data:extend({
   {
     type = "technology",
     name = "pamk3-pnr",
-    icon = "__Power Armor MK3__/graphics/technology/pamk3-pnr.png",
+    --icon = "__Power Armor MK3__/graphics/technology/pamk3-pnr.png",
+    icons = util.technology_icon_constant_equipment("__Power Armor MK3__/graphics/technology/pamk3-pnr.png"),
     icon_size = 256,
     prerequisites = {"power-armor", "uranium-processing"},
     effects =
@@ -123,7 +127,8 @@ data:extend({
   {
     type = "technology",
     name = "pamk3-se",
-    icon = "__Power Armor MK3__/graphics/technology/pamk3-se.png",
+    --icon = "__Power Armor MK3__/graphics/technology/pamk3-se.png",
+    icons = util.technology_icon_constant_equipment("__Power Armor MK3__/graphics/technology/pamk3-se.png"),
     icon_size = 256,
     prerequisites = {"pamk3-esmk3", "pamk3-battmk3", "fusion-reactor-equipment", "pamk3-pamk4", "space-science-pack"},
     effects =
