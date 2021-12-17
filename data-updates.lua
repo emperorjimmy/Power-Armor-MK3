@@ -140,8 +140,8 @@ if settings.startup["pam3-inff"].value then
   data.raw["technology"]["pamk3-se"].effects =
   {
     {
-    type = "unlock-recipe",
-    recipe = "pamk3-se"
+      type = "unlock-recipe",
+      recipe = "pamk3-se"
     }
   }
 else
