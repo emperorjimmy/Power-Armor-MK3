@@ -1,11 +1,16 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.0
-Date: 2021-12-16
-  Visuals:
+Date: 2021-12-18
+  Info:
+    - Update by snouz.
+  Changes:
     - All graphics reworked (in HD).
     - Heavy armor tech uses the correct sprite.
+    - Custom icons for utility vests, nightvision goggles, portable nuclear reactor and singularity fuel.
     - New mod icon.
     - Equipment techs now use the ingame symbol.
+  Locale:
+    - Updated French locale.
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.08
 Date: 2021-06-07
