@@ -3,7 +3,7 @@ data:extend{
     type = "technology",
     name = "pamk3-pamk3",
     icon = "__Power Armor MK3__/graphics/technology/pamk3-pamk3.png",
-	icon_size = 128,
+    icon_size = 256,
     effects =
     {
       {
@@ -32,7 +32,7 @@ data:extend{
     type = "technology",
     name = "pamk3-pamk4",
     icon = "__Power Armor MK3__/graphics/technology/pamk3-pamk4.png",
-	icon_size = 128,
+    icon_size = 256,
     effects =
     {
       {
@@ -52,7 +52,7 @@ data:extend{
         {"military-science-pack", 1},
         {"utility-science-pack", 1},
         {"production-science-pack", 1},
-		{"space-science-pack", 1}
+        {"space-science-pack", 1}
       },
       time = 120
     },
@@ -62,14 +62,14 @@ data:extend{
     type = "technology",
     name = "heavy-armor",
     icon_size = 256, icon_mipmaps = 4,
-    icon = "__base__/graphics/technology/armor-making.png",
+    icon = "__base__/graphics/technology/heavy-armor.png",
     effects =
     {
       {
         type = "unlock-recipe",
         recipe = "heavy-armor"
       },
-	  {
+      {
         type = "unlock-recipe",
         recipe = "pamk3-hvest"
       }
@@ -83,4 +83,4 @@ data:extend{
     },
     order = "g-a-b"
   },
-}  
+}

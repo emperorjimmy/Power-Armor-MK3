@@ -12,13 +12,13 @@ local weapon_shooting_speed_2_icon = "__base__/graphics/technology/weapon-shooti
 local weapon_shooting_speed_3_icon = "__base__/graphics/technology/weapon-shooting-speed-3.png"
 local laser_shooting_speed_icon = "__base__/graphics/technology/laser-shooting-speed.png"
 
-data:extend(
-{
+data:extend({
   {
     type = "technology",
     name = "pamk3-nvmk2",
-    icon = "__Power Armor MK3__/graphics/technology/pamk3-nvmk2.png",	
-	icon_size = 128,
+    --icon = "__Power Armor MK3__/graphics/technology/pamk3-nvmk2.png",
+    icons = util.technology_icon_constant_equipment("__Power Armor MK3__/graphics/technology/pamk3-nvmk2.png"),
+    icon_size = 256,
     prerequisites = {"night-vision-equipment"},
     effects =
     {
@@ -43,8 +43,9 @@ data:extend(
   {
     type = "technology",
     name = "pamk3-esmk3",
-    icon = "__Power Armor MK3__/graphics/technology/pamk3-esmk3.png",	
-	icon_size = 128,
+    --icon = "__Power Armor MK3__/graphics/technology/pamk3-esmk3.png",
+    icons = util.technology_icon_constant_equipment("__Power Armor MK3__/graphics/technology/pamk3-esmk3.png"),
+    icon_size = 256,
     prerequisites = {"energy-shield-mk2-equipment", "pamk3-pamk3"},
     effects =
     {
@@ -71,8 +72,9 @@ data:extend(
   {
     type = "technology",
     name = "pamk3-battmk3",
-    icon = "__Power Armor MK3__/graphics/technology/pamk3-battmk3.png",	
-	icon_size = 128,
+    --icon = "__Power Armor MK3__/graphics/technology/pamk3-battmk3.png",
+    icons = util.technology_icon_constant_equipment("__Power Armor MK3__/graphics/technology/pamk3-battmk3.png"),
+    icon_size = 256,
     prerequisites = {"battery-mk2-equipment", "fusion-reactor-equipment"},
     effects =
     {
@@ -95,12 +97,13 @@ data:extend(
     },
     order = "g-i-b"
   },
-    {
+  {
     type = "technology",
     name = "pamk3-pnr",
-    icon = "__Power Armor MK3__/graphics/technology/pamk3-pnr.png",
-	icon_size = 128,
-	prerequisites = {"power-armor", "uranium-processing"},
+    --icon = "__Power Armor MK3__/graphics/technology/pamk3-pnr.png",
+    icons = util.technology_icon_constant_equipment("__Power Armor MK3__/graphics/technology/pamk3-pnr.png"),
+    icon_size = 256,
+    prerequisites = {"power-armor", "uranium-processing"},
     effects =
     {
       {
@@ -121,12 +124,13 @@ data:extend(
     },
     order = "g-l"
   },
-    {
+  {
     type = "technology",
     name = "pamk3-se",
-    icon = "__Power Armor MK3__/graphics/technology/pamk3-se.png",	
-	icon_size = 128,
-	prerequisites = {"pamk3-esmk3", "pamk3-battmk3", "fusion-reactor-equipment", "pamk3-pamk4", "space-science-pack"},
+    --icon = "__Power Armor MK3__/graphics/technology/pamk3-se.png",
+    icons = util.technology_icon_constant_equipment("__Power Armor MK3__/graphics/technology/pamk3-se.png"),
+    icon_size = 256,
+    prerequisites = {"pamk3-esmk3", "pamk3-battmk3", "fusion-reactor-equipment", "pamk3-pamk4", "space-science-pack"},
     effects =
     {
       {
@@ -153,7 +157,7 @@ data:extend(
     },
     order = "g-l"
   },
-	{
+  {
     type = "technology",
     name = "energy-weapons-damage-1",
     icon_size = 256, icon_mipmaps = 4,
@@ -165,7 +169,7 @@ data:extend(
         ammo_category = "laser",
         modifier = 0.2
       },
-	  {
+      {
         type = "ammo-damage",
         ammo_category = "electric",
         modifier = 0.1
@@ -198,7 +202,7 @@ data:extend(
         ammo_category = "laser",
         modifier = 0.2
       },
-	  {
+      {
         type = "ammo-damage",
         ammo_category = "electric",
         modifier = 0.1
@@ -231,7 +235,7 @@ data:extend(
         ammo_category = "laser",
         modifier = 0.3
       },
-	  {
+      {
         type = "ammo-damage",
         ammo_category = "electric",
         modifier = 0.2
@@ -264,7 +268,7 @@ data:extend(
         ammo_category = "laser",
         modifier = 0.4
       },
-	  {
+      {
         type = "ammo-damage",
         ammo_category = "electric",
         modifier = 0.2
@@ -303,7 +307,7 @@ data:extend(
         ammo_category = "beam",
         modifier = 0.4
       },
-	  {
+      {
         type = "ammo-damage",
         ammo_category = "electric",
         modifier = 0.3
@@ -343,7 +347,7 @@ data:extend(
         ammo_category = "beam",
         modifier = 0.4
       },
-	  {
+      {
         type = "ammo-damage",
         ammo_category = "electric",
         modifier = 0.5
@@ -383,7 +387,7 @@ data:extend(
         ammo_category = "beam",
         modifier = 0.4
       },
-	  {
+      {
         type = "ammo-damage",
         ammo_category = "electric",
         modifier = 0.5
@@ -408,5 +412,4 @@ data:extend(
     upgrade = true,
     order = "e-l-f"
   }
-  }
-)
+})
