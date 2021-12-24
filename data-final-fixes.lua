@@ -8,15 +8,17 @@ if mods["IndustrialRevolution"] then
       recipe = "heavy-armor"
     }
   }
+
+  ---------------------------------------------------------------
   data.raw.armor["pamk3-pamk3"].inventory_size_bonus = 60
   data.raw.recipe["pamk3-pamk3"].ingredients = {
-    {"steel-motor", 24},
+    {"electric-engine-unit", 24},
     {"computer-mk3", 4},
-    {"titanium-chassis-small", 2},
-    {"titanium-plate-heavy", 120},
-    {"carbon-plate", 120},
+    {"steel-frame-small", 2},
+    {"cupronickel-ingot", 120},
+    {"plastiglass", 120},
     {"sensor", 20},
-    {"rubber-vulcanised", 32},
+    {"rubber", 32},
     {"gyroscope", 1},
   }
   data.raw.technology["pamk3-pamk3"].unit = {
@@ -31,14 +33,16 @@ if mods["IndustrialRevolution"] then
     time = 60
   }
   data.raw.armor["pamk3-pamk3"].inventory_size_bonus = 80
+
+  ---------------------------------------------------------------
   data.raw.recipe["pamk3-pamk4"].ingredients = {
     {"pamk3-pamk3", 1},
     {"pamk3-battmk3", 5},
     {"fusion-reactor-equipment", 2},
     {"quantum-ring", 1},
-    {"duranium-plate-heavy", 120},
+    {"stainless-plate-heavy", 120},
   }
-  data.raw.technology["pamk3-pamk4"].prerequisites = { "pamk3-pamk3", "space-science-pack", "deadlock-research-2", }
+  data.raw.technology["pamk3-pamk4"].prerequisites = { "pamk3-pamk3", "space-science-pack" }
   data.raw.technology["pamk3-pamk4"].unit = {
     count = 5000,
     ingredients = {
@@ -51,6 +55,8 @@ if mods["IndustrialRevolution"] then
     },
     time = 120
   }
+
+  ---------------------------------------------------------------
   data.raw.recipe["pamk3-battmk3"].ingredients = {
     {"copper-cable-heavy", 5},
     {"junction-box", 1},
@@ -68,12 +74,14 @@ if mods["IndustrialRevolution"] then
     },
     time = 30
   }
+
+  ---------------------------------------------------------------
   data.raw.recipe["pamk3-nvmk2"].ingredients = {
-    {"glass-cable", 20},
+    {"glass", 20},
     {"computer-mk2", 1},
     {"sensor", 4},
-    {"rubber-vulcanised", 2},
-    {"carbon-plate", 2},
+    {"rubber", 2},
+    {"plastiglass", 2},
   }
   data.raw.technology["pamk3-nvmk2"].unit = {
     count = 300,
@@ -85,10 +93,12 @@ if mods["IndustrialRevolution"] then
     },
     time = 20
   }
+
+  ---------------------------------------------------------------
   data.raw.recipe["pamk3-esmk3"].ingredients = {
     {"energy-shield-mk2-equipment", 10},
     {"low-density-structure", 30},
-    {"steel-ring", 20},
+    {"steel-frame-small", 20},
     {"computer-mk3", 4},
   }
   data.raw.technology["pamk3-esmk3"].unit = {
@@ -103,9 +113,11 @@ if mods["IndustrialRevolution"] then
     },
     time = 45
   }
+
+  ---------------------------------------------------------------
   data.raw.recipe["pamk3-se"].ingredients = {
-    {"titanium-chassis-small", 4},
-    {"duranium-plate-heavy", 200},
+    {"steel-frame-small", 4},
+    {"stainless-plate-heavy", 200},
     {"quantum-ring", 2},
     {"pamk3-esmk3", 6},
     {"pamk3-battmk3", 4},
