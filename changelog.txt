@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.3
+Date: 2023-12-06
+  Changes:
+    - Rocket Control Unit added to Energy Shield MK3 and Fusion Battery research prerequisites.
+    - Enable/Disable for Singularity Fuel Source changed in settings, check before loading save.
+  Bugfixes:
+    - Singularity Fuel Source recipe no longer appears before researching.
+  Locale:
+    - Updated across the board to reflect changes.
+    - Several Locales are still incomplete.
+---------------------------------------------------------------------------------------------------
 Version: 0.4.2
 Date: 2023-08-01
   Locale:

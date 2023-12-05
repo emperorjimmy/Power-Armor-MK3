@@ -46,7 +46,7 @@ data:extend({
     --icon = "__Power Armor MK3__/graphics/technology/pamk3-esmk3.png",
     icons = util.technology_icon_constant_equipment("__Power Armor MK3__/graphics/technology/pamk3-esmk3.png"),
     icon_size = 256,
-    prerequisites = {"energy-shield-mk2-equipment", "pamk3-pamk3"},
+    prerequisites = {"energy-shield-mk2-equipment", "pamk3-pamk3", "rocket-control-unit"},
     effects =
     {
       {
@@ -75,7 +75,7 @@ data:extend({
     --icon = "__Power Armor MK3__/graphics/technology/pamk3-battmk3.png",
     icons = util.technology_icon_constant_equipment("__Power Armor MK3__/graphics/technology/pamk3-battmk3.png"),
     icon_size = 256,
-    prerequisites = {"battery-mk2-equipment", "fusion-reactor-equipment"},
+    prerequisites = {"battery-mk2-equipment", "fusion-reactor-equipment", "rocket-control-unit"},
     effects =
     {
       {
