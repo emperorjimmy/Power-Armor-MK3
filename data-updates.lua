@@ -134,9 +134,9 @@ end
 
 --------------------------------------------------------------------------------------------------
 if settings.startup["pam3-inff"].value then
-  data.raw["item"]["pamk3-inff"].enabled = true
-  data.raw["recipe"]["pamk3-inff"].enabled = true
-  data.raw["recipe"]["pamk3-inff"].hidden = false
+  data.raw["item"]["pamk3-inff"].enabled = false
+  data.raw["recipe"]["pamk3-inff"].enabled = false
+  data.raw["recipe"]["pamk3-inff"].hidden = true
   data.raw["technology"]["pamk3-se"].effects =
   {
     {
@@ -145,8 +145,8 @@ if settings.startup["pam3-inff"].value then
     }
   }
 else
-  data.raw["item"]["pamk3-inff"].enabled = false
-  data.raw["recipe"]["pamk3-inff"].enabled = false
+  data.raw["item"]["pamk3-inff"].enabled = true
+  data.raw["recipe"]["pamk3-inff"].enabled = true
   data.raw["recipe"]["pamk3-inff"].hidden = true
 end
 
