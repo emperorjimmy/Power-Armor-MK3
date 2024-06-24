@@ -61,7 +61,7 @@ data:extend(
       height = 3,
       type = "full"
     },
-    max_shield_value = 400,
+    max_shield_value = 500,
     energy_source =
     {
       type = "electric",
