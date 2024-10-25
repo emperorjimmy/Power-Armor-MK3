@@ -11,7 +11,7 @@ data:extend{
         recipe = "pamk3-pamk3"
       }
     },
-    prerequisites = {"power-armor-mk2", "military-4", "effectivity-module-3", "speed-module-3"},
+    prerequisites = {"power-armor-mk2", "military-4", "efficiency-module-3", "speed-module-3"},
     unit =
     {
       count = 600,
@@ -40,7 +40,7 @@ data:extend{
         recipe = "pamk3-pamk4"
       }
     },
-    prerequisites = {"pamk3-pamk3", "fusion-reactor-equipment", "space-science-pack", "pamk3-battmk3"},
+    prerequisites = {"pamk3-pamk3", "fission-reactor-equipment", "space-science-pack", "pamk3-battmk3"},
     unit =
     {
       count = 2000,

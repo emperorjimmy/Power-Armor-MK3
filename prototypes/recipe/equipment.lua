@@ -5,11 +5,11 @@ data:extend({
     enabled = false,
     energy_required = 10,
     ingredients = {
-      {"advanced-circuit", 20},
-      {"low-density-structure", 10},
-      {"processing-unit", 5}
+      { type = "item", name = "advanced-circuit",      amount = 20 },
+      { type = "item", name = "low-density-structure", amount = 10 },
+      { type = "item", name = "processing-unit",       amount = 5 }
     },
-    result = "pamk3-nvmk2"
+    results = { { type = "item", name = "pamk3-nvmk2", amount = 1 } }
   },
   {
     type = "recipe",
@@ -17,11 +17,13 @@ data:extend({
     enabled = false,
     energy_required = 10,
     ingredients = {
-      {"energy-shield-mk2-equipment", 10},
-      {"low-density-structure", 30},
-      {"rocket-control-unit", 10}
+      { type = "item", name = "energy-shield-mk2-equipment", amount = 10 },
+      { type = "item", name = "low-density-structure",       amount = 30 },
+      { type = "item", name = "speed-module",              amount = 10 },
+      { type = "item", name = "processing-unit",             amount = 60 }, -- + 10
+
     },
-    result = "pamk3-esmk3"
+    results = { { type = "item", name = "pamk3-esmk3", amount = 1 } }
   },
   {
     type = "recipe",
@@ -29,12 +31,14 @@ data:extend({
     enabled = false,
     energy_required = 10,
     ingredients = {
-      {"low-density-structure", 30},
-      {"battery-mk2-equipment", 10},
-      {"rocket-control-unit", 5},
-      {"effectivity-module-3", 2}
+      { type = "item", name = "low-density-structure", amount = 30 },
+      { type = "item", name = "battery-mk2-equipment", amount = 10 },
+      { type = "item", name = "processing-unit",           amount = 5 },
+      { type = "item", name = "speed-module",              amount = 5 },
+
+      { type = "item", name = "efficiency-module-3",   amount = 2 }
     },
-    result = "pamk3-battmk3"
+    results = { { type = "item", name = "pamk3-battmk3", amount = 1 } }
   },
   {
     type = "recipe",
@@ -43,12 +47,12 @@ data:extend({
     energy_required = 10,
     ingredients =
     {
-      {"copper-cable", 30},
-      {"steel-plate", 20},
-      {"advanced-circuit", 10},
-      {"uranium-fuel-cell", 5}
+      { type = "item", name = "copper-cable",      amount = 30 },
+      { type = "item", name = "steel-plate",       amount = 20 },
+      { type = "item", name = "advanced-circuit",  amount = 10 },
+      { type = "item", name = "uranium-fuel-cell", amount = 5 }
     },
-    result = "pamk3-pnr"
+    results = { { type = "item", name = "pamk3-pnr", amount = 1 } }
   },
   {
     type = "recipe",
@@ -56,15 +60,15 @@ data:extend({
     enabled = false,
     energy_required = 10,
     ingredients = {
-      {"copper-plate", 200},
-      {"low-density-structure", 200},
-      {"processing-unit", 100},
-      {"rocket-control-unit", 50},
-      {"pamk3-esmk3", 20},
-      {"pamk3-battmk3", 10},
-      {"fusion-reactor-equipment", 5}
+      { type = "item", name = "copper-plate",              amount = 200 },
+      { type = "item", name = "low-density-structure",     amount = 200 },
+      { type = "item", name = "processing-unit",           amount = 150 },
+      { type = "item", name = "speed-module",              amount = 50 }, 
+      { type = "item", name = "fission-reactor-equipment", amount = 5 },
+      { type = "item", name = "pamk3-esmk3",               amount = 20 },
+      { type = "item", name = "pamk3-battmk3",             amount = 10 },
     },
-    result = "pamk3-se"
+    results = { { type = "item", name = "pamk3-se", amount = 1 } }
   },
   {
     type = "recipe",
@@ -72,8 +76,8 @@ data:extend({
     enabled = false,
     energy_required = 10,
     ingredients = {
-      {"pamk3-se", 1}
+      { type = "item", name = "pamk3-se", amount = 1 }
     },
-    result = "pamk3-inff"
+    results = { { type = "item", name = "pamk3-inff", amount = 1 } }
   }
 })
