@@ -1,18 +1,18 @@
-data:extend{
+data:extend {
   {
     type = "recipe",
     name = "pamk3-pamk3",
     enabled = false,
     energy_required = 40,
     ingredients = {
-      {"effectivity-module-3", 20},
-      {"speed-module-3", 20},
-      {"electric-engine-unit", 80},
-      {"processing-unit", 120},
-      {"low-density-structure", 80}
+      { type = "item", name = "efficiency-module-3",   amount = 20 },
+      { type = "item", name = "speed-module-3",        amount = 20 },
+      { type = "item", name = "electric-engine-unit",  amount = 80 },
+      { type = "item", name = "processing-unit",       amount = 120 },
+      { type = "item", name = "low-density-structure", amount = 80 }
     },
-    result = "pamk3-pamk3",
-    requester_paste_multiplier = 1
+    results = { { type = "item", name = "pamk3-pamk3", amount = 1 } },
+    requester_paste_multiplier = 1,
   },
   {
     type = "recipe",
@@ -20,13 +20,14 @@ data:extend{
     enabled = false,
     energy_required = 120,
     ingredients = {
-      {"pamk3-pamk3", 1},
-      {"pamk3-battmk3", 5},
-      {"fusion-reactor-equipment", 2},
-      {"rocket-control-unit", 40},
-      {"low-density-structure", 200}
+      { type = "item", name = "pamk3-pamk3",               amount = 1 },
+      { type = "item", name = "pamk3-battmk3",             amount = 5 },
+      { type = "item", name = "fission-reactor-equipment", amount = 2 },
+      { type = "item", name = "processing-unit",           amount = 40 },
+      { type = "item", name = "speed-module",              amount = 40 },
+      { type = "item", name = "low-density-structure",     amount = 200 }
     },
-    result = "pamk3-pamk4",
+    results = { { type = "item", name = "pamk3-pamk4", amount = 1 } },
     requester_paste_multiplier = 1
   },
   {
@@ -35,10 +36,10 @@ data:extend{
     enabled = true,
     energy_required = 3,
     ingredients = {
-        {"iron-plate", 30},
-        {"iron-stick", 4}
+      { type = "item", name = "iron-plate", amount = 30 },
+      { type = "item", name = "iron-stick", amount = 4 }
     },
-    result = "pamk3-lvest",
+    results = { { type = "item", name = "pamk3-lvest", amount = 1 } },
     requester_paste_multiplier = 1
   },
   {
@@ -47,10 +48,10 @@ data:extend{
     enabled = false,
     energy_required = 8,
     ingredients = {
-        { "copper-plate", 100},
-        {"steel-plate", 50}
+      { type = "item", name = "copper-plate", amount = 100 },
+      { type = "item", name = "steel-plate",  amount = 50 }
     },
-    result = "pamk3-hvest",
+    results = { { type = "item", name = "pamk3-hvest", amount = 1 } },
     requester_paste_multiplier = 1
   }
 }
