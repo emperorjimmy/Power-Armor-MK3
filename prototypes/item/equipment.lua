@@ -22,22 +22,12 @@ data:extend{
   {
     type = "item",
     name = "pamk3-battmk3",
+    localised_description = {"item-description.battery-equipment"},
     icon = "__Power Armor MK3__/graphics/icons/pamk3-battmk3.png",
-    icon_size = 64,
     place_as_equipment_result = "pamk3-battmk3",
     subgroup = "equipment",
     order = "b[battery]-c[battery-equipment-mk3]",
-    stack_size = 50,
-  },
-  {
-    type = "item",
-    name = "pamk3-pnr",
-    icon = "__Power Armor MK3__/graphics/icons/pamk3-pnr.png",
-    icon_size = 64,
-    place_as_equipment_result = "pamk3-pnr",
-    subgroup = "equipment",
-    order = "a[energy-source]-c[nuclear-reactor]",
-    stack_size = 20,
+    stack_size = 20
   },
   {
     type = "item",

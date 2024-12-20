@@ -77,12 +77,12 @@ data:extend(
       name = "pamk3-battmk3",
       sprite =
       {
-        filename = "__Power Armor MK3__/graphics/equipment/pamk3-battmk3.png",
-        width = 128,
-        height = 192,
-        scale = 0.5,
-        priority = "medium"
-      },
+        filename = "__Power Armor MK3__/graphics/equipment/battery-mk3-equipment.png",
+        width = 64,
+		height = 144,
+		priority = "medium",
+		scale = 0.5
+    },
       shape =
       {
         width = 2,
@@ -97,31 +97,6 @@ data:extend(
         output_flow_limit = "4GW",
         usage_priority = "tertiary"
       },
-      categories = { "armor" }
-    },
-    {
-      type = "generator-equipment",
-      name = "pamk3-pnr",
-      sprite =
-      {
-        filename = "__Power Armor MK3__/graphics/equipment/pamk3-pnr.png",
-        width = 192,
-        height = 192,
-        scale = 0.5,
-        priority = "medium"
-      },
-      shape =
-      {
-        width = 3,
-        height = 3,
-        type = "full"
-      },
-      energy_source =
-      {
-        type = "electric",
-        usage_priority = "primary-output"
-      },
-      power = "300kW",
       categories = { "armor" }
     },
     {
@@ -146,7 +121,7 @@ data:extend(
         type = "electric",
         usage_priority = "primary-output"
       },
-      power = "3000kW",
+      power = "10000kW",
       categories = { "armor" }
     }
   }

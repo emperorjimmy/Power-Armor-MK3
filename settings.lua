@@ -23,15 +23,7 @@ data:extend
     default_value = false,
     per_user = false,
     order = "a3"
-  },
-  {
-    type = "bool-setting",
-    name = "pam3-pnr",
-    setting_type = "startup",
-    default_value = false,
-    per_user = false,
-    order = "a4"
-  },
+  },																							
   {
     type = "bool-setting",
     name = "pam3-sin",
