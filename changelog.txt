@@ -1,4 +1,17 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2024-12-21
+  Changes:
+    - A lot of changes to make compatible with 2.0 and Space Age, Space Age is not required.
+    - Removed the Portable Nuclear Reactor.
+    - Changed a few recipes that required RCUs, probably not permanent.
+    - Removed changes to laser weapon damage.
+    - Increased the power output of the Shielded Singularity.
+    - Changed Fusion Battery to Personal Battery MK3, with stats identical to Space Age varient, disabled automatically if Space Age is enabled.
+
+  Locale:
+    - All locales other than English are probably out of date.
+---------------------------------------------------------------------------------------------------
 Version: 0.4.7
 Date: 2024-06-24
   Changes:

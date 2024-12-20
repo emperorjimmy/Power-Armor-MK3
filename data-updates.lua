@@ -101,18 +101,6 @@ if settings.startup["pam3-bm3"].value and settings.startup["pam3-esm3"].value an
 end
 
 --------------------------------------------------------------------------------------------------
-if settings.startup["pam3-pnr"].value then
-  data.raw["item"]["pamk3-pnr"].enabled = false
-  data.raw["technology"]["pamk3-pnr"].enabled = false
-  data.raw["technology"]["pamk3-pnr"].hidden = true
-  data.raw["recipe"]["pamk3-pnr"].enabled = false
-  data.raw["recipe"]["pamk3-pnr"].hidden = true
-else
-  data.raw["item"]["pamk3-pnr"].enabled = true
-  data.raw["technology"]["pamk3-pnr"].enabled = true
-end
-
---------------------------------------------------------------------------------------------------
 if settings.startup["pam3-sin"].value then
   data.raw["item"]["pamk3-se"].enabled = false
   data.raw["technology"]["pamk3-se"].enabled = false

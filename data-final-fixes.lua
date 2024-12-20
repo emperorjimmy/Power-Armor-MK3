@@ -125,3 +125,8 @@ if mods["IndustrialRevolution"] then
   }
   data.raw["generator-equipment"]["pamk3-se"].power = "10000kW"
 end
+
+if mods["space-age"] then
+  data.raw["recipe"]["pamk3-battmk3"].enabled = false
+  data.raw["technology"]["pamk3-battmk3"].enabled = false
+end

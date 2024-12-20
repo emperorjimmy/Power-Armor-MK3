@@ -35,24 +35,9 @@ data:extend({
       { type = "item", name = "battery-mk2-equipment", amount = 10 },
       { type = "item", name = "processing-unit",           amount = 5 },
       { type = "item", name = "speed-module",              amount = 5 },
-
       { type = "item", name = "efficiency-module-3",   amount = 2 }
     },
     results = { { type = "item", name = "pamk3-battmk3", amount = 1 } }
-  },
-  {
-    type = "recipe",
-    name = "pamk3-pnr",
-    enabled = false,
-    energy_required = 10,
-    ingredients =
-    {
-      { type = "item", name = "copper-cable",      amount = 30 },
-      { type = "item", name = "steel-plate",       amount = 20 },
-      { type = "item", name = "advanced-circuit",  amount = 10 },
-      { type = "item", name = "uranium-fuel-cell", amount = 5 }
-    },
-    results = { { type = "item", name = "pamk3-pnr", amount = 1 } }
   },
   {
     type = "recipe",
