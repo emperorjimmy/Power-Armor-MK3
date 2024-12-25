@@ -85,16 +85,14 @@ data:extend(
     },
       shape =
       {
-        width = 2,
-        height = 3,
+        width = 1,
+        height = 2,
         type = "full"
       },
       energy_source =
       {
         type = "electric",
-        buffer_capacity = "750MJ",
-        input_flow_limit = "4GW",
-        output_flow_limit = "4GW",
+        buffer_capacity = "250MJ",
         usage_priority = "tertiary"
       },
       categories = { "armor" }

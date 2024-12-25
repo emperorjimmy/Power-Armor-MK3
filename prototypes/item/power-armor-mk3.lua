@@ -1,3 +1,5 @@
+local item_sounds = require("__base__.prototypes.item_sounds")
+
 for _, animation in ipairs(data.raw["character"]["character"]["animations"]) do
   if animation.armors then
     for _, armor in ipairs(animation.armors) do
@@ -41,10 +43,16 @@ data:extend{
     },
     subgroup = "armor",
     order = "f[pamk3-pamk3]",
+    inventory_move_sound = item_sounds.armor_large_inventory_move,
+    pick_sound = item_sounds.armor_large_inventory_pickup,
+    drop_sound = item_sounds.armor_large_inventory_move,
     stack_size = 1,
     infinite = true,
     equipment_grid = "larger-equipment-grid",
-    inventory_size_bonus = 50
+    inventory_size_bonus = 50,
+    open_sound = "__base__/sound/armor-open.ogg",
+    close_sound = "__base__/sound/armor-close.ogg",
+    weight = 1*tons
   },
   {
     type = "armor",
@@ -60,10 +68,16 @@ data:extend{
     },
     subgroup = "armor",
     order = "g[pamk3-pamk4]",
+    inventory_move_sound = item_sounds.armor_large_inventory_move,
+    pick_sound = item_sounds.armor_large_inventory_pickup,
+    drop_sound = item_sounds.armor_large_inventory_move,
     stack_size = 1,
     infinite = true,
     equipment_grid = "largest-equipment-grid",
-    inventory_size_bonus = 60
+    inventory_size_bonus = 60,
+    open_sound = "__base__/sound/armor-open.ogg",
+    close_sound = "__base__/sound/armor-close.ogg",
+    weight = 1*tons
   },
   {
     type = "armor",
@@ -79,6 +93,9 @@ data:extend{
     },
     subgroup = "armor",
     order = "a[pamk3-lvest]",
+    inventory_move_sound = item_sounds.armor_small_inventory_move,
+    pick_sound = item_sounds.armor_small_inventory_pickup,
+    drop_sound = item_sounds.armor_small_inventory_move,
     stack_size = 1,
     infinite = true,
     inventory_size_bonus = 10
@@ -97,6 +114,9 @@ data:extend{
     },
     subgroup = "armor",
     order = "b[pamk3-hvest]",
+    inventory_move_sound = item_sounds.armor_small_inventory_move,
+    pick_sound = item_sounds.armor_small_inventory_pickup,
+    drop_sound = item_sounds.armor_small_inventory_move,
     stack_size = 1,
     infinite = true,
     inventory_size_bonus = 20

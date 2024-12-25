@@ -1,3 +1,5 @@
+local item_sounds = require("__base__.prototypes.item_sounds")
+
 data:extend{
   {
     type = "item",
@@ -5,8 +7,11 @@ data:extend{
     icon = "__Power Armor MK3__/graphics/icons/pamk3-nvmk2.png",
     icon_size = 64, 
     place_as_equipment_result = "pamk3-nvmk2",
-    subgroup = "equipment",
-    order = "f[night-vision]-b[pamk3-nvmk2]",
+    subgroup = "utility-equipment",
+    order = "f[night-vision]-b[night-vision-equipment-mk2]",
+    inventory_move_sound = item_sounds.electric_small_inventory_move,
+    pick_sound = item_sounds.electric_small_inventory_pickup,
+    drop_sound = item_sounds.electric_small_inventory_move,
     stack_size = 10,
   },
   {
@@ -17,7 +22,11 @@ data:extend{
     place_as_equipment_result = "pamk3-esmk3",
     subgroup = "military-equipment",
     order = "a[shield]-c[energy-shield-equipment-mk3]",
-    stack_size = 50,
+    inventory_move_sound = item_sounds.energy_shield_inventory_move,
+    pick_sound = item_sounds.energy_shield_inventory_pickup,
+    drop_sound = item_sounds.energy_shield_inventory_move,
+    stack_size = 10,
+    weight = 150*kg
   },
   {
     type = "item",
@@ -27,7 +36,11 @@ data:extend{
     place_as_equipment_result = "pamk3-battmk3",
     subgroup = "equipment",
     order = "b[battery]-c[battery-equipment-mk3]",
-    stack_size = 20
+    inventory_move_sound = item_sounds.electric_small_inventory_move,
+    pick_sound = item_sounds.electric_small_inventory_pickup,
+    drop_sound = item_sounds.electric_small_inventory_move,
+    stack_size = 20,
+    weight = 200 * kg
   },
   {
     type = "item",
@@ -36,8 +49,12 @@ data:extend{
     icon_size = 64,
     place_as_equipment_result = "pamk3-se",
     subgroup = "equipment",
-    order = "a[energy-source]-d[singularity]",
-    stack_size = 20,
+    order = "a[energy-source]-d[shielded-singularity]",
+    inventory_move_sound = item_sounds.reactor_inventory_move,
+    pick_sound = item_sounds.reactor_inventory_pickup,
+    drop_sound = item_sounds.reactor_inventory_move,
+    stack_size = 10,
+    weight = 1 * tons,
   },
   {
     type = "item",
@@ -50,6 +67,10 @@ data:extend{
     fuel_top_speed_multiplier = 1.2,
     subgroup = "intermediate-product",
     order = "r[infinite-fuel]-b",
+    inventory_move_sound = item_sounds.reactor_inventory_move,
+    pick_sound = item_sounds.reactor_inventory_pickup,
+    drop_sound = item_sounds.reactor_inventory_move,
     stack_size = 1,
+    weight = 1 * tons,
   }
 }

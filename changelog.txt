@@ -1,4 +1,19 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.03
+Date: 2024-12-26
+  Changes:
+    - Changed Battery MK3 equipment stats to match Space Age.
+---------------------------------------------------------------------------------------------------
+Version: 2.0.02
+Date: 2024-12-24
+  Changes:
+    - Added inventory sounds to all items.
+    - Re-categorised a few items, for better crafting list ordering.
+    - Changed stack sizes on a few items.
+    - Added weights to some items that needed them.
+  Bugfixes:
+    - Fixed Space Age recipe for Shielded Singularity using the wrong version of Battery MK3 equipment.
+---------------------------------------------------------------------------------------------------
 Version: 2.0.01
 Date: 2024-12-24
   Locale:
