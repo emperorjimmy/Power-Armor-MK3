@@ -5,8 +5,8 @@ data:extend {
     enabled = false,
     energy_required = 40,
     ingredients = {
-      { type = "item", name = "efficiency-module-3",   amount = 20 },
-      { type = "item", name = "speed-module-3",        amount = 20 },
+      { type = "item", name = "efficiency-module-2",   amount = 50 },
+      { type = "item", name = "speed-module-2",        amount = 50 },
       { type = "item", name = "electric-engine-unit",  amount = 80 },
       { type = "item", name = "processing-unit",       amount = 120 },
       { type = "item", name = "low-density-structure", amount = 80 }
@@ -20,11 +20,12 @@ data:extend {
     enabled = false,
     energy_required = 120,
     ingredients = {
+      { type = "item", name = "efficiency-module-3",       amount = 20 },
+      { type = "item", name = "speed-module-3",            amount = 20 },
       { type = "item", name = "pamk3-pamk3",               amount = 1 },
       { type = "item", name = "pamk3-battmk3",             amount = 5 },
       { type = "item", name = "fission-reactor-equipment", amount = 2 },
       { type = "item", name = "processing-unit",           amount = 40 },
-      { type = "item", name = "speed-module",              amount = 40 },
       { type = "item", name = "low-density-structure",     amount = 200 }
     },
     results = { { type = "item", name = "pamk3-pamk4", amount = 1 } },

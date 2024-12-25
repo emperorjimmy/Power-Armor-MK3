@@ -128,7 +128,7 @@ data:extend({
         {"utility-science-pack", 1},
         {"space-science-pack", 1}
       },
-      time = 60
+      time = 120
     },
     order = "g-l"
   }										

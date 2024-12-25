@@ -19,8 +19,9 @@ data:extend({
     ingredients = {
       { type = "item", name = "energy-shield-mk2-equipment", amount = 10 },
       { type = "item", name = "low-density-structure",       amount = 30 },
-      { type = "item", name = "speed-module",              amount = 10 },
-      { type = "item", name = "processing-unit",             amount = 60 }, -- + 10
+      { type = "item", name = "speed-module",                amount = 5 },
+      { type = "item", name = "efficiency-module",         amount = 5 },
+      { type = "item", name = "processing-unit",             amount = 60 }
 
     },
     results = { { type = "item", name = "pamk3-esmk3", amount = 1 } }
@@ -33,8 +34,8 @@ data:extend({
     ingredients = {
       { type = "item", name = "low-density-structure", amount = 30 },
       { type = "item", name = "battery-mk2-equipment", amount = 10 },
-      { type = "item", name = "processing-unit",           amount = 5 },
-      { type = "item", name = "speed-module",              amount = 5 },
+      { type = "item", name = "processing-unit",       amount = 5 },
+      { type = "item", name = "speed-module-3",        amount = 2 },
       { type = "item", name = "efficiency-module-3",   amount = 2 }
     },
     results = { { type = "item", name = "pamk3-battmk3", amount = 1 } }
@@ -46,9 +47,9 @@ data:extend({
     energy_required = 10,
     ingredients = {
       { type = "item", name = "copper-plate",              amount = 200 },
+      { type = "item", name = "steel-plate",               amount = 100 },
       { type = "item", name = "low-density-structure",     amount = 200 },
       { type = "item", name = "processing-unit",           amount = 150 },
-      { type = "item", name = "speed-module",              amount = 50 }, 
       { type = "item", name = "fission-reactor-equipment", amount = 5 },
       { type = "item", name = "pamk3-esmk3",               amount = 20 },
       { type = "item", name = "pamk3-battmk3",             amount = 10 },
