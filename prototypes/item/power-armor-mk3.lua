@@ -1,4 +1,5 @@
 local item_sounds = require("__base__.prototypes.item_sounds")
+local simulations = require("__base__.prototypes.factoriopedia-simulations")
 
 for _, animation in ipairs(data.raw["character"]["character"]["animations"]) do
   if animation.armors then
@@ -43,6 +44,7 @@ data:extend{
     },
     subgroup = "armor",
     order = "f[pamk3-pamk3]",
+    factoriopedia_simulation = simulations.factoriopedia_power_armor_mk2,
     inventory_move_sound = item_sounds.armor_large_inventory_move,
     pick_sound = item_sounds.armor_large_inventory_pickup,
     drop_sound = item_sounds.armor_large_inventory_move,
@@ -68,6 +70,7 @@ data:extend{
     },
     subgroup = "armor",
     order = "g[pamk3-pamk4]",
+    factoriopedia_simulation = simulations.factoriopedia_power_armor_mk2,
     inventory_move_sound = item_sounds.armor_large_inventory_move,
     pick_sound = item_sounds.armor_large_inventory_pickup,
     drop_sound = item_sounds.armor_large_inventory_move,
@@ -93,6 +96,7 @@ data:extend{
     },
     subgroup = "armor",
     order = "a[pamk3-lvest]",
+    factoriopedia_simulation = simulations.factoriopedia_light_armor,
     inventory_move_sound = item_sounds.armor_small_inventory_move,
     pick_sound = item_sounds.armor_small_inventory_pickup,
     drop_sound = item_sounds.armor_small_inventory_move,
@@ -114,6 +118,7 @@ data:extend{
     },
     subgroup = "armor",
     order = "b[pamk3-hvest]",
+    factoriopedia_simulation = simulations.factoriopedia_heavy_armor,
     inventory_move_sound = item_sounds.armor_small_inventory_move,
     pick_sound = item_sounds.armor_small_inventory_pickup,
     drop_sound = item_sounds.armor_small_inventory_move,

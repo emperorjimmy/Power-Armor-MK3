@@ -72,5 +72,18 @@ data:extend{
     drop_sound = item_sounds.reactor_inventory_move,
     stack_size = 1,
     weight = 1 * tons,
+  },
+  {
+    type = "item",
+    name = "pamk3-pdd",
+    icon = "__base__/graphics/icons/discharge-defense-equipment.png",
+    place_as_equipment_result = "pamk3-pdd",
+    subgroup = "military-equipment",
+    order = "b[active-defense]-c[passive-discharge-defense-equipment]-a[equipment]",
+    inventory_move_sound = item_sounds.electric_large_inventory_move,
+    pick_sound = item_sounds.electric_large_inventory_pickup,
+    drop_sound = item_sounds.electric_large_inventory_move,
+    stack_size = 20,
+    weight = 250*kg
   }
 }

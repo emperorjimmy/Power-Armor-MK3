@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.1
+Date: 2025-01-10
+  Features:
+    - Added Passive Discharge Defense equipment.
+  Info:
+    - Very powerful, probable re-balancing in the near future. Identical to Discharge Defense equipment, fires automatically.
+  Graphics:
+    - Utilizing Discharge Defense equipment assets for now.
+  Locale: Only English for now, please consider submitting a pull request at https://github.com/emperorjimmy/Power-Armor-MK3 if you would like your locale covered.
+---------------------------------------------------------------------------------------------------
 Version: 2.1.0
 Date: 2024-12-26
   Changes:
@@ -87,7 +97,7 @@ Version: 0.4.0
 Date: 2021-12-18
   Info:
     - Update by snouz.
-  Changes:
+  Graphics:
     - All graphics reworked (in HD).
     - Heavy armor tech uses the correct sprite.
     - Custom icons for utility vests, nightvision goggles, portable nuclear reactor and singularity fuel.

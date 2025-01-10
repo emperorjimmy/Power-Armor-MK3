@@ -65,5 +65,17 @@ data:extend({
       { type = "item", name = "pamk3-se", amount = 1 }
     },
     results = { { type = "item", name = "pamk3-inff", amount = 1 } }
+  },
+  {
+    type = "recipe",
+    name = "pamk3-pdd",
+    enabled = false,
+    energy_required = 10,
+    ingredients =
+    {
+      {type = "item", name = "discharge-defense-equipment", amount = 1},
+      {type = "item", name = "processing-unit", amount = 20}
+    },
+    results = {{type="item", name="pamk3-pdd", amount=1}}
   }
 })

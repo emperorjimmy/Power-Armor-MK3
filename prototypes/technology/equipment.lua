@@ -131,5 +131,31 @@ data:extend({
       time = 120
     },
     order = "g-l"
-  }										
+  },
+  {
+    type = "technology",
+    name = "pamk3-pdd",
+    icons = util.technology_icon_constant_equipment("__base__/graphics/technology/discharge-defense-equipment.png"),
+    prerequisites = {"discharge-defense-equipment", "military-4", "power-armor-mk2"},
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "pamk3-pdd"
+      }
+    },
+    unit =
+    {
+      count = 200,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"military-science-pack", 1},
+        {"utility-science-pack", 1}
+      },
+      time = 30
+    }
+  }									
 })
