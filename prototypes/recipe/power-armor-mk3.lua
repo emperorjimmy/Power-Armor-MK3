@@ -18,6 +18,7 @@ data:extend {
     type = "recipe",
     name = "pamk3-pamk4",
     enabled = false,
+	auto_recycle = true,
     energy_required = 120,
     ingredients = {
       { type = "item", name = "efficiency-module-3",       amount = 20 },

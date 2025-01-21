@@ -1,5 +1,17 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.1.1
+Version: 2.1.03
+Date: 2025-01-22
+  Changes:
+    - Moved Space Age specific changes to recipes from data-final-fixes to data, to ensure proper generation of recycling recipes.
+  Info:
+    - Space Age Power armor MK4 and Shielded Singularity equipment recipes recycle into themselves, no issue with vanilla + Quality.
+---------------------------------------------------------------------------------------------------
+Version: 2.1.02
+Date: 2025-01-11
+  Locale:
+    - Updated Russian locale.
+---------------------------------------------------------------------------------------------------
+Version: 2.1.01
 Date: 2025-01-10
   Features:
     - Added Passive Discharge Defense equipment.

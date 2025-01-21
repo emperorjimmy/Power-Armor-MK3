@@ -22,7 +22,6 @@ data:extend({
       { type = "item", name = "speed-module",                amount = 5 },
       { type = "item", name = "efficiency-module",         amount = 5 },
       { type = "item", name = "processing-unit",             amount = 60 }
-
     },
     results = { { type = "item", name = "pamk3-esmk3", amount = 1 } }
   },
@@ -44,6 +43,7 @@ data:extend({
     type = "recipe",
     name = "pamk3-se",
     enabled = false,
+	auto_recycle = true,
     energy_required = 10,
     ingredients = {
       { type = "item", name = "copper-plate",              amount = 200 },
@@ -78,4 +78,5 @@ data:extend({
     },
     results = {{type="item", name="pamk3-pdd", amount=1}}
   }
-})
+  }
+)
