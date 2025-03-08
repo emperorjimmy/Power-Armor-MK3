@@ -11,6 +11,8 @@ require("prototypes.technology.equipment")
 if mods["space-age"] then
   data.raw["recipe"]["pamk3-battmk3"].enabled = false
   data.raw["recipe"]["pamk3-battmk3"].hidden = true
+  data.raw["item"]["pamk3-battmk3"].enabled = false
+  data.raw["item"]["pamk3-battmk3"].hidden = true
   data.raw["technology"]["pamk3-battmk3"].enabled = false
   data.raw["technology"]["pamk3-battmk3"].hidden = true
   data.raw.recipe["pamk3-se"].category = "cryogenics"

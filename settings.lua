@@ -34,7 +34,7 @@ data:extend
   },
   {
     type = "bool-setting",
-    name = "pam3-pam4",
+    name = "pam3-pdd",
     setting_type = "startup",
     default_value = false,
     per_user = false,
@@ -42,11 +42,19 @@ data:extend
   },
   {
     type = "bool-setting",
+    name = "pam3-pam4",
+    setting_type = "startup",
+    default_value = false,
+    per_user = false,
+    order = "a7"
+  },
+  {
+    type = "bool-setting",
     name = "pam3-inff",
     setting_type = "startup",
     default_value = true,
     per_user = true,
-    order = "a7"
+    order = "a8"
   },
   {
     type = "bool-setting",
@@ -54,7 +62,7 @@ data:extend
     setting_type = "startup",
     default_value = false,
     per_user = false,
-    order = "a8"
+    order = "a9"
   },
   {
     type = "int-setting",
@@ -62,7 +70,7 @@ data:extend
     setting_type = "startup",
     default_value = 20,
     minimum_value = 1,
-    order = "a9"
+    order = "b1"
   },
   {
     type = "int-setting",
@@ -70,7 +78,7 @@ data:extend
     setting_type = "startup",
     default_value = 20,
     minimum_value = 1,
-    order = "b1"
+    order = "b2"
   },
   {
     type = "bool-setting",
@@ -78,7 +86,7 @@ data:extend
     setting_type = "startup",
     default_value = false,
     per_user = false,
-    order = "b2"
+    order = "b3"
   },
   {
     type = "int-setting",
@@ -86,7 +94,7 @@ data:extend
     setting_type = "startup",
     default_value = 10,
     minimum_value = 1,
-    order = "b3"
+    order = "b4"
   },
   {
     type = "int-setting",
@@ -94,6 +102,6 @@ data:extend
     setting_type = "startup",
     default_value = 6,
     minimum_value = 1,
-    order = "b4"
+    order = "b5"
   }
 }

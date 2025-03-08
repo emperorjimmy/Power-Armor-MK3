@@ -1,5 +1,6 @@
 if settings.startup["pam3-nvm2"].value then
   data.raw["item"]["pamk3-nvmk2"].enabled = false
+  data.raw["item"]["pamk3-nvmk2"].hidden = true
   data.raw["technology"]["pamk3-nvmk2"].enabled = false
   data.raw["technology"]["pamk3-nvmk2"].hidden = true
   data.raw["recipe"]["pamk3-nvmk2"].enabled = false
@@ -12,6 +13,7 @@ end
 --------------------------------------------------------------------------------------------------
 if settings.startup["pam3-esm3"].value then
   data.raw["item"]["pamk3-esmk3"].enabled = false
+  data.raw["item"]["pamk3-esmk3"].hidden = true
   data.raw["technology"]["pamk3-esmk3"].enabled = false
   data.raw["technology"]["pamk3-esmk3"].hidden = true
   data.raw["recipe"]["pamk3-esmk3"].enabled = false
@@ -37,6 +39,7 @@ end
 --------------------------------------------------------------------------------------------------
 if settings.startup["pam3-bm3"].value then
   data.raw["item"]["pamk3-battmk3"].enabled = false
+  data.raw["item"]["pamk3-battmk3"].hidden = true
   data.raw["technology"]["pamk3-battmk3"].enabled = false
   data.raw["technology"]["pamk3-battmk3"].hidden = true
   data.raw["recipe"]["pamk3-battmk3"].enabled = false
@@ -53,7 +56,6 @@ if settings.startup["pam3-bm3"].value then
     { type = "item", name = "copper-plate",             amount = 200 },
     { type = "item", name = "low-density-structure",    amount = 200 },
     { type = "item", name = "processing-unit",          amount = 100 },
-    { type = "item", name = "processing-unit",          amount = 50 },
     { type = "item", name = "speed-module",             amount = 50 },
     { type = "item", name = "pamk3-esmk3",              amount = 20 },
     { type = "item", name = "battery-mk2-equipment",    amount = 100 },
@@ -89,7 +91,6 @@ if settings.startup["pam3-bm3"].value and settings.startup["pam3-esm3"].value th
     { type = "item", name = "energy-shield-mk2-equipment",  amount = 200 },
     { type = "item", name = "battery-mk2-equipment",        amount = 100 },
     { type = "item", name = "fission-reactor-equipment",     amount = 5 },
-    { type = "item", name = "processing-unit",              amount = 50 },
     { type = "item", name = "speed-module",                 amount = 50 },
   }
   data.raw.technology["pamk3-se"].prerequisites = {
@@ -103,6 +104,7 @@ end
 --------------------------------------------------------------------------------------------------
 if settings.startup["pam3-sin"].value then
   data.raw["item"]["pamk3-se"].enabled = false
+  data.raw["item"]["pamk3-se"].hidden = true
   data.raw["technology"]["pamk3-se"].enabled = false
   data.raw["technology"]["pamk3-se"].hidden = true
   data.raw["recipe"]["pamk3-se"].enabled = false
@@ -115,6 +117,7 @@ end
 --------------------------------------------------------------------------------------------------
 if settings.startup["pam3-pam4"].value then
   data.raw["armor"]["pamk3-pamk4"].enabled = false
+  data.raw["armor"]["pamk3-pamk4"].hidden = true
   data.raw["technology"]["pamk3-pamk4"].enabled = false
   data.raw["technology"]["pamk3-pamk4"].hidden = true
   data.raw["recipe"]["pamk3-pamk4"].enabled = false
@@ -127,6 +130,7 @@ end
 --------------------------------------------------------------------------------------------------
 if settings.startup["pam3-inff"].value then
   data.raw["item"]["pamk3-inff"].enabled = false
+  data.raw["item"]["pamk3-inff"].hidden = true
   data.raw["recipe"]["pamk3-inff"].enabled = false
   data.raw["recipe"]["pamk3-inff"].hidden = true
   data.raw["technology"]["pamk3-se"].effects =
@@ -138,8 +142,20 @@ if settings.startup["pam3-inff"].value then
   }
 else
   data.raw["item"]["pamk3-inff"].enabled = true
-  data.raw["recipe"]["pamk3-inff"].enabled = true
-  data.raw["recipe"]["pamk3-inff"].hidden = false
+  data.raw["recipe"]["pamk3-inff"].enabled = false
+end
+
+--------------------------------------------------------------------------------------------------
+if settings.startup["pam3-pdd"].value then
+  data.raw["item"]["pamk3-pdd"].enabled = false
+  data.raw["item"]["pamk3-pdd"].hidden = true
+  data.raw["technology"]["pamk3-pdd"].enabled = false
+  data.raw["technology"]["pamk3-pdd"].hidden = true
+  data.raw["recipe"]["pamk3-pdd"].enabled = false
+  data.raw["recipe"]["pamk3-pdd"].hidden = true
+else
+  data.raw["item"]["pamk3-pdd"].enabled = true
+  data.raw["technology"]["pamk3-pdd"].enabled = true
 end
 
 --------------------------------------------------------------------------------------------------
