@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.04
+Date: 2025-03-09
+  Bugfixes:
+    - All disabled items no longer show up in filters/remote view.
+  Changes:
+    - added option to disable Passive Discharge Defense equipment.
+  Info:
+    - Singularity fuel source recipe persists in old saves, should be hidden in new saves until researched.
+    - Pre-existing items will not disappear when disabled in config, you'll need to destroy/delete them.
+---------------------------------------------------------------------------------------------------
 Version: 2.1.03
 Date: 2025-01-22
   Changes:
@@ -190,10 +200,10 @@ Version: 0.2.19
 Date: 2020-08-16
   Info:
     - Created an actual changelog file.
-      Updated to Factorio 1.0.
+    - Updated to Factorio 1.0.
   Graphics:
     - Deleted old images.
-      Updated Energy Shield MK3 and Fusion Battery images.
+    - Updated Energy Shield MK3 and Fusion Battery images.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.18
   Locale:
