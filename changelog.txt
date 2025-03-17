@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.05
+Date: 2025-03-18
+  Features:
+    - Added option to change the Power Armor MK4 into a flying Mech Armor, disabled by default.
+  Info:
+    - Setting is experimental for now, testing in multiplayer is likely needed.
+---------------------------------------------------------------------------------------------------
 Version: 2.1.04
 Date: 2025-03-09
   Bugfixes:
