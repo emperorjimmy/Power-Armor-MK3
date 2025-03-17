@@ -6,7 +6,6 @@ for _, animation in ipairs(data.raw["character"]["character"]["animations"]) do
     for _, armor in ipairs(animation.armors) do
       if armor == "power-armor-mk2" then
         animation.armors[#animation.armors + 1] = "pamk3-pamk3"
-        animation.armors[#animation.armors + 1] = "pamk3-pamk4"
         break
       end
        if armor == "light-armor" then

@@ -1,3 +1,5 @@
+local simulations = require("__base__.prototypes.factoriopedia-simulations")
+
 if settings.startup["pam3-nvm2"].value then
   data.raw["item"]["pamk3-nvmk2"].enabled = false
   data.raw["item"]["pamk3-nvmk2"].hidden = true
@@ -172,4 +174,35 @@ local PAM4_grid_height = settings.startup["pam3-p4gh"].value
 if settings.startup["pam3-p4xl"].value then
   data.raw["equipment-grid"]["largest-equipment-grid"].width = PAM4_grid_width
   data.raw["equipment-grid"]["largest-equipment-grid"].height = PAM4_grid_height
+end
+
+--------------------------------------------------------------------------------------------------
+if settings.startup["pam3-ma2"].value and mods["space-age"] then
+  local simulations = require("__space-age__.prototypes.factoriopedia-simulations")
+  data.raw["armor"]["pamk3-pamk4"].factoriopedia_simulation = simulations.factoriopedia_mech_armor
+  data.raw["armor"]["pamk3-pamk4"].provides_flight = true
+  data.raw["armor"]["pamk3-pamk4"].takeoff_sound = {filename = "__space-age__/sound/entity/mech-armor/mech-armor-takeoff.ogg", volume = 0.2, aggregation = {max_count = 2, remove = true}}
+  data.raw["armor"]["pamk3-pamk4"].landing_sound = {filename = "__space-age__/sound/entity/mech-armor/mech-armor-land.ogg", volume = 0.3, aggregation = {max_count = 2, remove = true, count_already_playing = true}}
+  data.raw["armor"]["pamk3-pamk4"].flight_sound = {sound={filename = "__space-age__/sound/entity/mech-armor/mech-armor-flight.ogg", volume = 0.2}}
+  for _, animation in ipairs(data.raw["character"]["character"]["animations"]) do
+  if animation.armors then
+    for _, armor in ipairs(animation.armors) do
+      if armor == "mech-armor" then
+        animation.armors[#animation.armors + 1] = "pamk3-pamk4"
+        break
+    end
+  end
+end
+end
+else
+  for _, animation in ipairs(data.raw["character"]["character"]["animations"]) do
+  if animation.armors then
+    for _, armor in ipairs(animation.armors) do
+      if armor == "power-armor-mk2" then
+        animation.armors[#animation.armors + 1] = "pamk3-pamk4"
+        break
+    end
+  end
+end
+end
 end
