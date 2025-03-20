@@ -125,3 +125,22 @@ if mods["IndustrialRevolution"] then
   }
   data.raw["generator-equipment"]["pamk3-se"].power = "10000kW"
 end
+
+if mods["space-age"] then
+  data.raw.recipe["pamk3-pamk4-recycling"].results = {
+    { type = "item", name = "tungsten-plate",           amount = 20 },
+    { type = "item", name = "carbon-fiber",     	    amount = 10 },
+    { type = "item", name = "quantum-processor",        amount = 2.5 },
+    { type = "item", name = "fusion-reactor-equipment", amount = 1, probability = 0.5 },
+    { type = "item", name = "pamk3-pamk3",              amount = 1, probability = 0.25},
+    { type = "item", name = "battery-mk3-equipment",    amount = 2.5, extra_count_fraction = 0.5 }
+  }
+  data.raw.recipe["pamk3-se-recycling"].results = {
+    { type = "item", name = "tungsten-plate",           amount = 50 },
+    { type = "item", name = "carbon-fiber",             amount = 25 },
+    { type = "item", name = "quantum-processor",        amount = 12 },
+    { type = "item", name = "fusion-reactor-equipment", amount = 1, extra_count_fraction = 0.25 },
+    { type = "item", name = "pamk3-esmk3",              amount = 2, extra_count_fraction = 0.5 },
+    { type = "item", name = "battery-mk3-equipment",    amount = 2, extra_count_fraction = 0.5 }
+  }
+end

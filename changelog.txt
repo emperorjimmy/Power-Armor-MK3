@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.06
+Date: 2025-03-20
+  Bugfixes:
+    - Power armor MK4 and Shielded singularity equipment can now be properly recycled into their consitituent parts in Space Age.
+---------------------------------------------------------------------------------------------------
 Version: 2.1.05
 Date: 2025-03-18
   Features:
