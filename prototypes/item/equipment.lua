@@ -61,7 +61,7 @@ data:extend{
     name = "pamk3-inff",
     icon = "__Power Armor MK3__/graphics/icons/pamk3-inff.png",
     icon_size = 64,
-    fuel_category = "chemical",
+    fuel_categories = {"chemical"},
     fuel_value = "1000YJ",
     fuel_acceleration_multiplier = 3,
     fuel_top_speed_multiplier = 1.2,
